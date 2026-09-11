@@ -1,5 +1,9 @@
 #  Naima - Autonomous Vehicle
 
+<p align="center">
+  <img src="https://github.com/mohamed-alshamy/Autonomous-Vehicle/blob/main/Autonomous%20Vehicle.jpg" width="500">
+</p>
+
 Welcome to the **Naima Project**!  This is a powerful, modular framework for ROS 2, designed to integrate the ZED 2 stereo camera , UBLOX GPS , and advanced navigation tools . It’s perfect for developers and researchers working on autonomous robotic systems, offering seamless sensor fusion, localization, and navigation with modern ROS 2 tools for high-performance, real-time applications.
 
 ---
