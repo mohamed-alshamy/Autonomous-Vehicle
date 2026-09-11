@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Naima Control Panel</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.5/socket.io.min.js"></script>
+  <style>
+    body {
+      background: url('https://i.postimg.cc/mZ1PnHp4/Whats-App-Image-2025-05-22-at-5-38-31-AM.jpg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Segoe UI', sans-serif;
+      min-height: 100vh;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-shadow: 1px 1px 2px #000;
+    }
+
+    h2 {
+      font-size: clamp(1.5rem, 5vw, 2.5rem);
+      margin-bottom: 2rem;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 0.5rem 1rem;
+      border-radius: 10px;
+    }
+
+    .button-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(100px, 150px));
+      gap: 1rem;
+      justify-content: center;
+    }
+
+    button {
+      padding: 1rem;
+      font-size: clamp(1rem, 3vw, 1.2rem);
+      background-color: rgba(255, 255, 255, 0.15);
+      color: #fff;
+      border: 2px solid #fff;
+      border-radius: 12px;
+      backdrop-filter: blur(6px);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+      transition: all 0.3s ease;
+      cursor: pointer;
+      touch-action: manipulation;
+    }
+
+    button:hover {
+      background-color: rgba(255, 255, 255, 0.25);
+      transform: translateY(-3px) scale(1.05);
+    }
+
+    button:active {
+      transform: translateY(0);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    #stop-btn {
+      border-color: #ff6b6b;
+      background-color: rgba(255, 107, 107, 0.15);
+    }
+
+    #stop-btn:hover {
+      background-color: rgba(255, 107, 107, 0.25);
+    }
+
+    #status {
+      margin-top: 2rem;
+      font-size: 1.1rem;
+      background-color: rgba(0, 0, 0, 0.4);
+      padding: 0.5rem 1rem;
+      border-radius: 10px;
+    }
+
+    .connection-status {
+      position: fixed;
+      top: 1rem;
+      left: 1rem;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      color: white;
+      font-size: 0.9rem;
+      background-color: rgba(0, 0, 0, 0.5);
+      border: 1px solid white;
+    }
+
+    .connected {
+      background-color: rgba(46, 204, 113, 0.8);
+    }
+
+    .disconnected {
+      background-color: rgba(231, 76, 60, 0.8);
+    }
+
+    @media (max-width: 600px) {
+      .button-grid {
+        grid-template-columns: repeat(3, minmax(80px, 100px));
+        gap: 0.5rem;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+      }
+
+      #status {
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="connection-status disconnected" id="connection-status">Disconnected</div>
+  <h2>Naima Control Panel</h2>
+
+  <div class="button-grid">
+    <div></div>
+    <button data-linear="1" data-angular="0" aria-label="Move forward">Forward</button>
+    <div></div>
+
+    <button data-linear="0" data-angular="20" aria-label="Turn left">Left</button>
+    <button id="stop-btn" data-linear="0" data-angular="0" aria-label="Stop">Stop</button>
+    <button data-linear="0" data-angular="-20" aria-label="Turn right">Right</button>
+
+    <div></div>
+    <button data-linear="-1" data-angular="0" aria-label="Move backward">Backward</button>
+    <div></div>
+  </div>
+
+  <div id="status">Ready</div>
+
+  <script>
+    const socket = io();
+    const statusDisplay = document.getElementById('status');
+    const connectionStatus = document.getElementById('connection-status');
+    let commandInterval = null;
+
+    function sendCommand(linear_x, angular_z) {
+      statusDisplay.textContent = 'Sending command...';
+      socket.emit('move_command', { linear_x, angular_z });
+    }
+
+    function startSending(linear_x, angular_z) {
+      if (commandInterval) clearInterval(commandInterval);
+      sendCommand(linear_x, angular_z);
+      commandInterval = setInterval(() => {
+        sendCommand(linear_x, angular_z);
+      }, 100);
+    }
+
+    function stopSending() {
+      if (commandInterval) {
+        clearInterval(commandInterval);
+        commandInterval = null;
+        sendCommand(0, 0);
+        statusDisplay.textContent = 'Command stopped';
+      }
+    }
+
+    document.querySelectorAll('.button-grid button').forEach(button => {
+      const linear_x = parseFloat(button.dataset.linear);
+      const angular_z = parseFloat(button.dataset.angular);
+
+      button.addEventListener('mousedown', () => startSending(linear_x, angular_z));
+      button.addEventListener('mouseup', stopSending);
+      button.addEventListener('mouseleave', stopSending);
+
+      button.addEventListener('touchstart', (e) => {
+        e.preventDefault();
+        startSending(linear_x, angular_z);
+      });
+      button.addEventListener('touchend', stopSending);
+    });
+
+    socket.on('connect', () => {
+      connectionStatus.textContent = 'Connected';
+      connectionStatus.classList.remove('disconnected');
+      connectionStatus.classList.add('connected');
+      statusDisplay.textContent = 'Ready';
+    });
+
+    socket.on('disconnect', () => {
+      connectionStatus.textContent = 'Disconnected';
+      connectionStatus.classList.remove('connected');
+      connectionStatus.classList.add('disconnected');
+      statusDisplay.textContent = 'Disconnected from server';
+      stopSending();
+    });
+
+    socket.on('response', (msg) => {
+      statusDisplay.textContent = `Command status: ${msg.status || 'Success'}`;
+    });
+
+    socket.on('connect_error', (error) => {
+      statusDisplay.textContent = `Connection error: ${error.message}`;
+      stopSending();
+    });
+  </script>
+</body>
+</html>

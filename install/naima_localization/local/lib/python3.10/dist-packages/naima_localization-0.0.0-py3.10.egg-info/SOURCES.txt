@@ -1,0 +1,8 @@
+setup.py
+naima_localization/__init__.py
+naima_localization/imu_republisher.py
+naima_localization/kalman_filter.py
+naima_localization.egg-info/PKG-INFO
+naima_localization.egg-info/SOURCES.txt
+naima_localization.egg-info/dependency_links.txt
+naima_localization.egg-info/top_level.txt

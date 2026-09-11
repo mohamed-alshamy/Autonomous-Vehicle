@@ -1,0 +1,22 @@
+[0.576s] Invoking command in '/home/men3m/Naima/build/zed_tutorial_depth': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/men3m/Naima/install/naima_bringup:/home/men3m/Naima/install/naima:/opt/ros/humble /usr/bin/cmake --build /home/men3m/Naima/build/zed_tutorial_depth -- -j16 -l16
+[0.682s] [100%] Built target zed_tutorial_depth
+[0.786s] Invoked command in '/home/men3m/Naima/build/zed_tutorial_depth' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/men3m/Naima/install/naima_bringup:/home/men3m/Naima/install/naima:/opt/ros/humble /usr/bin/cmake --build /home/men3m/Naima/build/zed_tutorial_depth -- -j16 -l16
+[0.787s] Invoking command in '/home/men3m/Naima/build/zed_tutorial_depth': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/men3m/Naima/install/naima_bringup:/home/men3m/Naima/install/naima:/opt/ros/humble /usr/bin/cmake --install /home/men3m/Naima/build/zed_tutorial_depth
+[0.855s] -- Install configuration: "Release"
+[0.855s] -- Up-to-date: /home/men3m/Naima/install/zed_tutorial_depth/lib/zed_tutorial_depth/zed_tutorial_depth
+[0.855s] -- Up-to-date: /home/men3m/Naima/install/zed_tutorial_depth/share/ament_index/resource_index/package_run_dependencies/zed_tutorial_depth
+[0.855s] -- Up-to-date: /home/men3m/Naima/install/zed_tutorial_depth/share/ament_index/resource_index/parent_prefix_path/zed_tutorial_depth
+[0.855s] -- Up-to-date: /home/men3m/Naima/install/zed_tutorial_depth/share/zed_tutorial_depth/environment/ament_prefix_path.sh
+[0.855s] -- Up-to-date: /home/men3m/Naima/install/zed_tutorial_depth/share/zed_tutorial_depth/environment/ament_prefix_path.dsv
+[0.856s] -- Up-to-date: /home/men3m/Naima/install/zed_tutorial_depth/share/zed_tutorial_depth/environment/path.sh
+[0.856s] -- Up-to-date: /home/men3m/Naima/install/zed_tutorial_depth/share/zed_tutorial_depth/environment/path.dsv
+[0.856s] -- Up-to-date: /home/men3m/Naima/install/zed_tutorial_depth/share/zed_tutorial_depth/local_setup.bash
+[0.856s] -- Up-to-date: /home/men3m/Naima/install/zed_tutorial_depth/share/zed_tutorial_depth/local_setup.sh
+[0.856s] -- Up-to-date: /home/men3m/Naima/install/zed_tutorial_depth/share/zed_tutorial_depth/local_setup.zsh
+[0.856s] -- Up-to-date: /home/men3m/Naima/install/zed_tutorial_depth/share/zed_tutorial_depth/local_setup.dsv
+[0.856s] -- Installing: /home/men3m/Naima/install/zed_tutorial_depth/share/zed_tutorial_depth/package.dsv
+[0.856s] -- Up-to-date: /home/men3m/Naima/install/zed_tutorial_depth/share/ament_index/resource_index/packages/zed_tutorial_depth
+[0.856s] -- Up-to-date: /home/men3m/Naima/install/zed_tutorial_depth/share/zed_tutorial_depth/cmake/zed_tutorial_depthConfig.cmake
+[0.857s] -- Up-to-date: /home/men3m/Naima/install/zed_tutorial_depth/share/zed_tutorial_depth/cmake/zed_tutorial_depthConfig-version.cmake
+[0.857s] -- Up-to-date: /home/men3m/Naima/install/zed_tutorial_depth/share/zed_tutorial_depth/package.xml
+[0.880s] Invoked command in '/home/men3m/Naima/build/zed_tutorial_depth' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/men3m/Naima/install/naima_bringup:/home/men3m/Naima/install/naima:/opt/ros/humble /usr/bin/cmake --install /home/men3m/Naima/build/zed_tutorial_depth

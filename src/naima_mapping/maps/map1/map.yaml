@@ -1,0 +1,13 @@
+# image: eru.pgm
+# resolution: 0.050000
+# origin: [40.000000, -43.5, -0.5]
+# negate: 0
+# occupied_thresh: 0.65
+# free_thresh: 0.196
+
+image: /home/men3m/Naima/src/naima_mapping/maps/map1/map.pgm
+resolution: 0.650000
+origin: [-360, -348, 0]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.196

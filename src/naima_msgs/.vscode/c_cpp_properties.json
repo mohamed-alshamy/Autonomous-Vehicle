@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/men3m/Naima/install/naima_examples/include/**",
+        "/home/men3m/Naima/install/naima_msgs/include/**",
+        "/home/men3m/Naima/install/naima_localization/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/men3m/Naima/src/naima_description/include/**",
+        "/home/men3m/Naima/src/naima_examples/include/**",
+        "/home/men3m/Naima/src/naima_localization/include/**",
+        "/home/men3m/Naima/src/naima_mapping/include/**",
+        "/home/men3m/Naima/src/naima_msgs/include/**",
+        "include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

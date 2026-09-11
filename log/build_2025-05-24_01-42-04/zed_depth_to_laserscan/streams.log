@@ -1,0 +1,26 @@
+[0.008s] Invoking command in '/home/men3m/Naima/build/zed_depth_to_laserscan': AMENT_PREFIX_PATH=/home/men3m/Naima/install/zed_wrapper:/home/men3m/Naima/install/zed_components:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/men3m/Naima/install/zed_wrapper:/home/men3m/Naima/install/zed_components:/opt/ros/humble LD_LIBRARY_PATH=/home/men3m/Naima/install/zed_components/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.4.0/lib64:/usr/local/cuda-12.4.0/lib64 /usr/bin/cmake --build /home/men3m/Naima/build/zed_depth_to_laserscan -- -j16 -l16
+[0.044s] Invoked command in '/home/men3m/Naima/build/zed_depth_to_laserscan' returned '0': AMENT_PREFIX_PATH=/home/men3m/Naima/install/zed_wrapper:/home/men3m/Naima/install/zed_components:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/men3m/Naima/install/zed_wrapper:/home/men3m/Naima/install/zed_components:/opt/ros/humble LD_LIBRARY_PATH=/home/men3m/Naima/install/zed_components/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.4.0/lib64:/usr/local/cuda-12.4.0/lib64 /usr/bin/cmake --build /home/men3m/Naima/build/zed_depth_to_laserscan -- -j16 -l16
+[0.045s] Invoking command in '/home/men3m/Naima/build/zed_depth_to_laserscan': AMENT_PREFIX_PATH=/home/men3m/Naima/install/zed_wrapper:/home/men3m/Naima/install/zed_components:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/men3m/Naima/install/zed_wrapper:/home/men3m/Naima/install/zed_components:/opt/ros/humble LD_LIBRARY_PATH=/home/men3m/Naima/install/zed_components/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.4.0/lib64:/usr/local/cuda-12.4.0/lib64 /usr/bin/cmake --install /home/men3m/Naima/build/zed_depth_to_laserscan
+[0.051s] -- Install configuration: ""
+[0.051s] -- Up-to-date: /home/men3m/Naima/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/launch
+[0.051s] -- Up-to-date: /home/men3m/Naima/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/launch/zed_depth_to_laserscan.launch.py
+[0.051s] -- Up-to-date: /home/men3m/Naima/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/config
+[0.051s] -- Up-to-date: /home/men3m/Naima/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/config/zed_depth_to_laserscan.yaml
+[0.051s] -- Up-to-date: /home/men3m/Naima/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/rviz2
+[0.051s] -- Up-to-date: /home/men3m/Naima/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/rviz2/zed_depth_to_laserscan.rviz
+[0.051s] -- Up-to-date: /home/men3m/Naima/install/zed_depth_to_laserscan/share/ament_index/resource_index/package_run_dependencies/zed_depth_to_laserscan
+[0.051s] -- Up-to-date: /home/men3m/Naima/install/zed_depth_to_laserscan/share/ament_index/resource_index/parent_prefix_path/zed_depth_to_laserscan
+[0.051s] -- Up-to-date: /home/men3m/Naima/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/environment/ament_prefix_path.sh
+[0.051s] -- Up-to-date: /home/men3m/Naima/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/environment/ament_prefix_path.dsv
+[0.052s] -- Up-to-date: /home/men3m/Naima/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/environment/path.sh
+[0.052s] -- Up-to-date: /home/men3m/Naima/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/environment/path.dsv
+[0.052s] -- Up-to-date: /home/men3m/Naima/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/local_setup.bash
+[0.052s] -- Up-to-date: /home/men3m/Naima/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/local_setup.sh
+[0.052s] -- Up-to-date: /home/men3m/Naima/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/local_setup.zsh
+[0.052s] -- Up-to-date: /home/men3m/Naima/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/local_setup.dsv
+[0.052s] -- Up-to-date: /home/men3m/Naima/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/package.dsv
+[0.052s] -- Up-to-date: /home/men3m/Naima/install/zed_depth_to_laserscan/share/ament_index/resource_index/packages/zed_depth_to_laserscan
+[0.052s] -- Up-to-date: /home/men3m/Naima/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/cmake/zed_depth_to_laserscanConfig.cmake
+[0.052s] -- Up-to-date: /home/men3m/Naima/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/cmake/zed_depth_to_laserscanConfig-version.cmake
+[0.052s] -- Up-to-date: /home/men3m/Naima/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/package.xml
+[0.053s] Invoked command in '/home/men3m/Naima/build/zed_depth_to_laserscan' returned '0': AMENT_PREFIX_PATH=/home/men3m/Naima/install/zed_wrapper:/home/men3m/Naima/install/zed_components:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/men3m/Naima/install/zed_wrapper:/home/men3m/Naima/install/zed_components:/opt/ros/humble LD_LIBRARY_PATH=/home/men3m/Naima/install/zed_components/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.4.0/lib64:/usr/local/cuda-12.4.0/lib64 /usr/bin/cmake --install /home/men3m/Naima/build/zed_depth_to_laserscan

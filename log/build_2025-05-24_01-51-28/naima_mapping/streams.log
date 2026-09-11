@@ -1,0 +1,32 @@
+[0.540s] Invoking command in '/home/men3m/Naima/build/naima_mapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/men3m/Naima/build/naima_mapping -- -j16 -l16
+[0.635s] Invoked command in '/home/men3m/Naima/build/naima_mapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/men3m/Naima/build/naima_mapping -- -j16 -l16
+[0.638s] Invoking command in '/home/men3m/Naima/build/naima_mapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/men3m/Naima/build/naima_mapping
+[0.641s] -- Install configuration: ""
+[0.641s] -- Up-to-date: /home/men3m/Naima/install/naima_mapping/share/naima_mapping/maps
+[0.641s] -- Up-to-date: /home/men3m/Naima/install/naima_mapping/share/naima_mapping/maps/map3
+[0.641s] -- Up-to-date: /home/men3m/Naima/install/naima_mapping/share/naima_mapping/maps/map3/eru.pgm
+[0.641s] -- Up-to-date: /home/men3m/Naima/install/naima_mapping/share/naima_mapping/maps/map3/map.yaml
+[0.641s] -- Up-to-date: /home/men3m/Naima/install/naima_mapping/share/naima_mapping/maps/map3/nile.pgm
+[0.641s] -- Up-to-date: /home/men3m/Naima/install/naima_mapping/share/naima_mapping/maps/map1
+[0.641s] -- Up-to-date: /home/men3m/Naima/install/naima_mapping/share/naima_mapping/maps/map1/map.pgm
+[0.641s] -- Up-to-date: /home/men3m/Naima/install/naima_mapping/share/naima_mapping/maps/map1/map.yaml
+[0.642s] -- Up-to-date: /home/men3m/Naima/install/naima_mapping/share/naima_mapping/maps/map2
+[0.642s] -- Up-to-date: /home/men3m/Naima/install/naima_mapping/share/naima_mapping/maps/map2/map.pgm
+[0.642s] -- Up-to-date: /home/men3m/Naima/install/naima_mapping/share/naima_mapping/maps/map2/map.yaml
+[0.642s] -- Up-to-date: /home/men3m/Naima/install/naima_mapping/share/naima_mapping/maps/map4
+[0.642s] -- Up-to-date: /home/men3m/Naima/install/naima_mapping/share/ament_index/resource_index/package_run_dependencies/naima_mapping
+[0.642s] -- Up-to-date: /home/men3m/Naima/install/naima_mapping/share/ament_index/resource_index/parent_prefix_path/naima_mapping
+[0.642s] -- Up-to-date: /home/men3m/Naima/install/naima_mapping/share/naima_mapping/environment/ament_prefix_path.sh
+[0.642s] -- Up-to-date: /home/men3m/Naima/install/naima_mapping/share/naima_mapping/environment/ament_prefix_path.dsv
+[0.642s] -- Up-to-date: /home/men3m/Naima/install/naima_mapping/share/naima_mapping/environment/path.sh
+[0.642s] -- Up-to-date: /home/men3m/Naima/install/naima_mapping/share/naima_mapping/environment/path.dsv
+[0.642s] -- Up-to-date: /home/men3m/Naima/install/naima_mapping/share/naima_mapping/local_setup.bash
+[0.642s] -- Up-to-date: /home/men3m/Naima/install/naima_mapping/share/naima_mapping/local_setup.sh
+[0.643s] -- Up-to-date: /home/men3m/Naima/install/naima_mapping/share/naima_mapping/local_setup.zsh
+[0.643s] -- Up-to-date: /home/men3m/Naima/install/naima_mapping/share/naima_mapping/local_setup.dsv
+[0.643s] -- Installing: /home/men3m/Naima/install/naima_mapping/share/naima_mapping/package.dsv
+[0.643s] -- Up-to-date: /home/men3m/Naima/install/naima_mapping/share/ament_index/resource_index/packages/naima_mapping
+[0.643s] -- Up-to-date: /home/men3m/Naima/install/naima_mapping/share/naima_mapping/cmake/naima_mappingConfig.cmake
+[0.644s] -- Up-to-date: /home/men3m/Naima/install/naima_mapping/share/naima_mapping/cmake/naima_mappingConfig-version.cmake
+[0.644s] -- Up-to-date: /home/men3m/Naima/install/naima_mapping/share/naima_mapping/package.xml
+[0.751s] Invoked command in '/home/men3m/Naima/build/naima_mapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/men3m/Naima/build/naima_mapping

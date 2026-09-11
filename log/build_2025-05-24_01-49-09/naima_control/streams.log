@@ -1,0 +1,20 @@
+[0.553s] Invoking command in '/home/men3m/Naima/build/naima_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/men3m/Naima/build/naima_control -- -j16 -l16
+[0.648s] Invoked command in '/home/men3m/Naima/build/naima_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/men3m/Naima/build/naima_control -- -j16 -l16
+[0.653s] Invoking command in '/home/men3m/Naima/build/naima_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/men3m/Naima/build/naima_control
+[0.663s] -- Install configuration: ""
+[0.663s] -- Up-to-date: /home/men3m/Naima/install/naima_control/share/ament_index/resource_index/package_run_dependencies/naima_control
+[0.663s] -- Up-to-date: /home/men3m/Naima/install/naima_control/share/ament_index/resource_index/parent_prefix_path/naima_control
+[0.663s] -- Up-to-date: /home/men3m/Naima/install/naima_control/share/naima_control/environment/ament_prefix_path.sh
+[0.663s] -- Up-to-date: /home/men3m/Naima/install/naima_control/share/naima_control/environment/ament_prefix_path.dsv
+[0.663s] -- Up-to-date: /home/men3m/Naima/install/naima_control/share/naima_control/environment/path.sh
+[0.664s] -- Up-to-date: /home/men3m/Naima/install/naima_control/share/naima_control/environment/path.dsv
+[0.664s] -- Up-to-date: /home/men3m/Naima/install/naima_control/share/naima_control/local_setup.bash
+[0.664s] -- Up-to-date: /home/men3m/Naima/install/naima_control/share/naima_control/local_setup.sh
+[0.664s] -- Up-to-date: /home/men3m/Naima/install/naima_control/share/naima_control/local_setup.zsh
+[0.664s] -- Up-to-date: /home/men3m/Naima/install/naima_control/share/naima_control/local_setup.dsv
+[0.664s] -- Installing: /home/men3m/Naima/install/naima_control/share/naima_control/package.dsv
+[0.664s] -- Up-to-date: /home/men3m/Naima/install/naima_control/share/ament_index/resource_index/packages/naima_control
+[0.664s] -- Up-to-date: /home/men3m/Naima/install/naima_control/share/naima_control/cmake/naima_controlConfig.cmake
+[0.664s] -- Up-to-date: /home/men3m/Naima/install/naima_control/share/naima_control/cmake/naima_controlConfig-version.cmake
+[0.665s] -- Up-to-date: /home/men3m/Naima/install/naima_control/share/naima_control/package.xml
+[0.743s] Invoked command in '/home/men3m/Naima/build/naima_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/men3m/Naima/build/naima_control

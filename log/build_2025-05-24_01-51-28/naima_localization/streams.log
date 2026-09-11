@@ -1,0 +1,68 @@
+[0.540s] Invoking command in '/home/men3m/Naima/build/naima_localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/men3m/Naima/build/naima_localization -- -j16 -l16
+[0.592s] [ 50%] Built target kalman_filter
+[0.604s] [ 50%] Built target ament_cmake_python_copy_naima_localization
+[0.606s] [100%] Built target imu_republisher
+[0.877s] running egg_info
+[0.878s] writing naima_localization.egg-info/PKG-INFO
+[0.879s] writing dependency_links to naima_localization.egg-info/dependency_links.txt
+[0.879s] writing top-level names to naima_localization.egg-info/top_level.txt
+[0.883s] reading manifest file 'naima_localization.egg-info/SOURCES.txt'
+[0.884s] writing manifest file 'naima_localization.egg-info/SOURCES.txt'
+[0.915s] [100%] Built target ament_cmake_python_build_naima_localization_egg
+[0.952s] Invoked command in '/home/men3m/Naima/build/naima_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/men3m/Naima/build/naima_localization -- -j16 -l16
+[0.955s] Invoking command in '/home/men3m/Naima/build/naima_localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/men3m/Naima/build/naima_localization
+[0.979s] -- Install configuration: ""
+[0.980s] -- Up-to-date: /home/men3m/Naima/install/naima_localization/share/naima_localization/environment/pythonpath.sh
+[0.981s] -- Up-to-date: /home/men3m/Naima/install/naima_localization/share/naima_localization/environment/pythonpath.dsv
+[0.981s] -- Up-to-date: /home/men3m/Naima/install/naima_localization/local/lib/python3.10/dist-packages/naima_localization-0.0.0-py3.10.egg-info
+[0.981s] -- Installing: /home/men3m/Naima/install/naima_localization/local/lib/python3.10/dist-packages/naima_localization-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.981s] -- Installing: /home/men3m/Naima/install/naima_localization/local/lib/python3.10/dist-packages/naima_localization-0.0.0-py3.10.egg-info/top_level.txt
+[0.981s] -- Installing: /home/men3m/Naima/install/naima_localization/local/lib/python3.10/dist-packages/naima_localization-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.981s] -- Installing: /home/men3m/Naima/install/naima_localization/local/lib/python3.10/dist-packages/naima_localization-0.0.0-py3.10.egg-info/PKG-INFO
+[0.982s] -- Up-to-date: /home/men3m/Naima/install/naima_localization/local/lib/python3.10/dist-packages/naima_localization
+[0.982s] -- Up-to-date: /home/men3m/Naima/install/naima_localization/local/lib/python3.10/dist-packages/naima_localization/kalman_filter.py
+[0.982s] -- Up-to-date: /home/men3m/Naima/install/naima_localization/local/lib/python3.10/dist-packages/naima_localization/imu_republisher.py
+[0.982s] -- Up-to-date: /home/men3m/Naima/install/naima_localization/local/lib/python3.10/dist-packages/naima_localization/__init__.py
+[1.031s] Listing '/home/men3m/Naima/install/naima_localization/local/lib/python3.10/dist-packages/naima_localization'...
+[1.035s] -- Up-to-date: /home/men3m/Naima/install/naima_localization/include/include
+[1.035s] -- Up-to-date: /home/men3m/Naima/install/naima_localization/include/include/naima_localization
+[1.035s] -- Up-to-date: /home/men3m/Naima/install/naima_localization/include/include/naima_localization/kalman_filter.hpp
+[1.036s] -- Up-to-date: /home/men3m/Naima/install/naima_localization/lib/naima_localization/kalman_filter
+[1.036s] -- Up-to-date: /home/men3m/Naima/install/naima_localization/lib/naima_localization/imu_republisher
+[1.036s] -- Up-to-date: /home/men3m/Naima/install/naima_localization/share/naima_localization/launch
+[1.036s] -- Up-to-date: /home/men3m/Naima/install/naima_localization/share/naima_localization/launch/navsat_transform.launch.py
+[1.036s] -- Up-to-date: /home/men3m/Naima/install/naima_localization/share/naima_localization/launch/global_localization.launch.py
+[1.037s] -- Up-to-date: /home/men3m/Naima/install/naima_localization/share/naima_localization/launch/global.launch.py
+[1.037s] -- Up-to-date: /home/men3m/Naima/install/naima_localization/share/naima_localization/launch/global_localization_map1.py
+[1.037s] -- Up-to-date: /home/men3m/Naima/install/naima_localization/share/naima_localization/launch/navigation.launch.py
+[1.037s] -- Up-to-date: /home/men3m/Naima/install/naima_localization/share/naima_localization/launch/local.launch.py
+[1.037s] -- Up-to-date: /home/men3m/Naima/install/naima_localization/share/naima_localization/launch/mappp.launch.py
+[1.037s] -- Up-to-date: /home/men3m/Naima/install/naima_localization/share/naima_localization/launch/localization_launch.py
+[1.037s] -- Up-to-date: /home/men3m/Naima/install/naima_localization/share/naima_localization/launch/local_localization.launch.py
+[1.037s] -- Up-to-date: /home/men3m/Naima/install/naima_localization/share/naima_localization/launch/dual_ekf_and_navsat.launch.py
+[1.037s] -- Up-to-date: /home/men3m/Naima/install/naima_localization/share/naima_localization/config
+[1.037s] -- Up-to-date: /home/men3m/Naima/install/naima_localization/share/naima_localization/config/mapper_params_localization.yaml
+[1.038s] -- Up-to-date: /home/men3m/Naima/install/naima_localization/share/naima_localization/config/navsat_transform.yaml
+[1.038s] -- Up-to-date: /home/men3m/Naima/install/naima_localization/share/naima_localization/config/dual_ekf_and_navsat.yaml
+[1.038s] -- Up-to-date: /home/men3m/Naima/install/naima_localization/share/naima_localization/config/map_server_params.yaml
+[1.038s] -- Up-to-date: /home/men3m/Naima/install/naima_localization/share/naima_localization/config/global_ekf.yaml
+[1.038s] -- Up-to-date: /home/men3m/Naima/install/naima_localization/share/naima_localization/config/nav2.yaml
+[1.038s] -- Up-to-date: /home/men3m/Naima/install/naima_localization/share/naima_localization/config/ekf.yaml
+[1.038s] -- Up-to-date: /home/men3m/Naima/install/naima_localization/lib/naima_localization/kalman_filter.py
+[1.039s] -- Up-to-date: /home/men3m/Naima/install/naima_localization/lib/naima_localization/imu_republisher.py
+[1.039s] -- Up-to-date: /home/men3m/Naima/install/naima_localization/share/ament_index/resource_index/package_run_dependencies/naima_localization
+[1.039s] -- Up-to-date: /home/men3m/Naima/install/naima_localization/share/ament_index/resource_index/parent_prefix_path/naima_localization
+[1.039s] -- Up-to-date: /home/men3m/Naima/install/naima_localization/share/naima_localization/environment/ament_prefix_path.sh
+[1.039s] -- Up-to-date: /home/men3m/Naima/install/naima_localization/share/naima_localization/environment/ament_prefix_path.dsv
+[1.039s] -- Up-to-date: /home/men3m/Naima/install/naima_localization/share/naima_localization/environment/path.sh
+[1.039s] -- Up-to-date: /home/men3m/Naima/install/naima_localization/share/naima_localization/environment/path.dsv
+[1.039s] -- Up-to-date: /home/men3m/Naima/install/naima_localization/share/naima_localization/local_setup.bash
+[1.039s] -- Up-to-date: /home/men3m/Naima/install/naima_localization/share/naima_localization/local_setup.sh
+[1.040s] -- Up-to-date: /home/men3m/Naima/install/naima_localization/share/naima_localization/local_setup.zsh
+[1.040s] -- Up-to-date: /home/men3m/Naima/install/naima_localization/share/naima_localization/local_setup.dsv
+[1.040s] -- Installing: /home/men3m/Naima/install/naima_localization/share/naima_localization/package.dsv
+[1.040s] -- Up-to-date: /home/men3m/Naima/install/naima_localization/share/ament_index/resource_index/packages/naima_localization
+[1.040s] -- Up-to-date: /home/men3m/Naima/install/naima_localization/share/naima_localization/cmake/naima_localizationConfig.cmake
+[1.040s] -- Up-to-date: /home/men3m/Naima/install/naima_localization/share/naima_localization/cmake/naima_localizationConfig-version.cmake
+[1.040s] -- Up-to-date: /home/men3m/Naima/install/naima_localization/share/naima_localization/package.xml
+[1.081s] Invoked command in '/home/men3m/Naima/build/naima_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/men3m/Naima/build/naima_localization

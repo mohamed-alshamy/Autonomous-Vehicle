@@ -1,0 +1,125 @@
+[0.007s] Invoking command in '/home/men3m/Naima/build/rviz_plugin_zed_od': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/men3m/Naima/src/zed-ros2-examples/rviz-plugin-zed-od -DCMAKE_INSTALL_PREFIX=/home/men3m/Naima/install/rviz_plugin_zed_od
+[0.060s] -- The C compiler identification is GNU 11.4.0
+[0.123s] -- The CXX compiler identification is GNU 11.4.0
+[0.132s] -- Detecting C compiler ABI info
+[0.203s] -- Detecting C compiler ABI info - done
+[0.210s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.210s] -- Detecting C compile features
+[0.210s] -- Detecting C compile features - done
+[0.213s] -- Detecting CXX compiler ABI info
+[0.301s] -- Detecting CXX compiler ABI info - done
+[0.308s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.309s] -- Detecting CXX compile features
+[0.309s] -- Detecting CXX compile features - done
+[0.310s] -- Enabling tests requiring a display
+[0.313s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.459s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.639s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[0.641s] -- Found OGRE
+[0.641s] --   static     : OFF
+[0.641s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[0.641s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.641s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[0.641s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[0.641s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[0.641s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.641s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[0.641s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.641s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.641s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.641s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.690s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[0.697s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[0.787s] -- Found X11: /usr/include   
+[0.787s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[0.857s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[0.857s] -- Looking for gethostbyname
+[0.921s] -- Looking for gethostbyname - found
+[0.921s] -- Looking for connect
+[0.983s] -- Looking for connect - found
+[0.984s] -- Looking for remove
+[1.045s] -- Looking for remove - found
+[1.045s] -- Looking for shmat
+[1.109s] -- Looking for shmat - found
+[1.109s] -- Looking for IceConnectionNumber in ICE
+[1.173s] -- Looking for IceConnectionNumber in ICE - found
+[1.206s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.211s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.219s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.231s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.246s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.311s] -- Found rviz_common: 11.2.17 (/opt/ros/humble/share/rviz_common/cmake)
+[1.326s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[1.425s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.495s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.498s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.517s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.526s] -- Looking for pthread.h
+[1.596s] -- Looking for pthread.h - found
+[1.597s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.672s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.673s] -- Found Threads: TRUE  
+[1.740s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.741s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.835s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.860s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.861s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.862s] -- Configured cppcheck include dirs: /home/men3m/Naima/src/zed-ros2-examples/rviz-plugin-zed-od/src/include;/home/men3m/Naima/src/zed-ros2-examples/rviz-plugin-zed-od/src/plugin/include;$<BUILD_INTERFACE:/home/men3m/Naima/src/zed-ros2-examples/rviz-plugin-zed-od/include>
+[1.862s] -- Configured cppcheck exclude dirs and/or files: 
+[1.863s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.863s] -- Configured cpplint exclude dirs and/or files: 
+[1.864s] -- Added test 'lint_cmake' to check CMake code style
+[1.865s] -- Added test 'uncrustify' to check C / C++ code style
+[1.865s] -- Configured uncrustify additional arguments: 
+[1.866s] -- Added test 'xmllint' to check XML markup files
+[1.867s] -- Added test 'clang_format' to check C / C++ code style
+[1.869s] -- Configuring done
+[1.922s] -- Generating done
+[1.927s] -- Build files have been written to: /home/men3m/Naima/build/rviz_plugin_zed_od
+[1.939s] Invoked command in '/home/men3m/Naima/build/rviz_plugin_zed_od' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/men3m/Naima/src/zed-ros2-examples/rviz-plugin-zed-od -DCMAKE_INSTALL_PREFIX=/home/men3m/Naima/install/rviz_plugin_zed_od
+[1.940s] Invoking command in '/home/men3m/Naima/build/rviz_plugin_zed_od': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/men3m/Naima/build/rviz_plugin_zed_od -- -j16 -l16
+[1.994s] [ 20%] [34m[1mAutomatic MOC and UIC for target rviz_plugin_zed_od[0m
+[2.403s] [ 20%] Built target rviz_plugin_zed_od_autogen
+[2.425s] [ 40%] [32mBuilding CXX object CMakeFiles/rviz_plugin_zed_od.dir/src/plugin/src/zed_od_info.cpp.o[0m
+[2.425s] [ 60%] [32mBuilding CXX object CMakeFiles/rviz_plugin_zed_od.dir/src/plugin/src/zed_od_display.cpp.o[0m
+[2.426s] [ 80%] [32mBuilding CXX object CMakeFiles/rviz_plugin_zed_od.dir/rviz_plugin_zed_od_autogen/mocs_compilation.cpp.o[0m
+[13.747s] [100%] [32m[1mLinking CXX shared library librviz_plugin_zed_od.so[0m
+[15.391s] [100%] Built target rviz_plugin_zed_od
+[15.402s] Invoked command in '/home/men3m/Naima/build/rviz_plugin_zed_od' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/men3m/Naima/build/rviz_plugin_zed_od -- -j16 -l16
+[15.404s] Invoking command in '/home/men3m/Naima/build/rviz_plugin_zed_od': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/men3m/Naima/build/rviz_plugin_zed_od
+[15.410s] -- Install configuration: ""
+[15.411s] -- Installing: /home/men3m/Naima/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/plugins_description.xml
+[15.411s] -- Installing: /home/men3m/Naima/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/environment/library_path.sh
+[15.411s] -- Installing: /home/men3m/Naima/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/environment/library_path.dsv
+[15.411s] -- Installing: /home/men3m/Naima/install/rviz_plugin_zed_od/lib/librviz_plugin_zed_od.so
+[15.421s] -- Set runtime path of "/home/men3m/Naima/install/rviz_plugin_zed_od/lib/librviz_plugin_zed_od.so" to ""
+[15.421s] -- Installing: /home/men3m/Naima/install/rviz_plugin_zed_od/include/rviz_plugin_zed_od/
+[15.421s] -- Installing: /home/men3m/Naima/install/rviz_plugin_zed_od/include/rviz_plugin_zed_od//visibility_control.hpp
+[15.421s] -- Up-to-date: /home/men3m/Naima/install/rviz_plugin_zed_od/include/rviz_plugin_zed_od/
+[15.421s] -- Installing: /home/men3m/Naima/install/rviz_plugin_zed_od/include/rviz_plugin_zed_od//zed_od_display.hpp
+[15.422s] -- Installing: /home/men3m/Naima/install/rviz_plugin_zed_od/include/rviz_plugin_zed_od//zed_body_parts.hpp
+[15.422s] -- Installing: /home/men3m/Naima/install/rviz_plugin_zed_od/include/rviz_plugin_zed_od//zed_od_info.hpp
+[15.422s] -- Installing: /home/men3m/Naima/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/icons
+[15.422s] -- Installing: /home/men3m/Naima/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/icons/ZedObjDet.png
+[15.422s] -- Installing: /home/men3m/Naima/install/rviz_plugin_zed_od/share/ament_index/resource_index/package_run_dependencies/rviz_plugin_zed_od
+[15.422s] -- Installing: /home/men3m/Naima/install/rviz_plugin_zed_od/share/ament_index/resource_index/parent_prefix_path/rviz_plugin_zed_od
+[15.422s] -- Installing: /home/men3m/Naima/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/environment/ament_prefix_path.sh
+[15.422s] -- Installing: /home/men3m/Naima/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/environment/ament_prefix_path.dsv
+[15.423s] -- Installing: /home/men3m/Naima/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/environment/path.sh
+[15.423s] -- Installing: /home/men3m/Naima/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/environment/path.dsv
+[15.423s] -- Installing: /home/men3m/Naima/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/local_setup.bash
+[15.423s] -- Installing: /home/men3m/Naima/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/local_setup.sh
+[15.423s] -- Installing: /home/men3m/Naima/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/local_setup.zsh
+[15.423s] -- Installing: /home/men3m/Naima/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/local_setup.dsv
+[15.423s] -- Installing: /home/men3m/Naima/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/package.dsv
+[15.424s] -- Installing: /home/men3m/Naima/install/rviz_plugin_zed_od/share/ament_index/resource_index/packages/rviz_plugin_zed_od
+[15.424s] -- Installing: /home/men3m/Naima/install/rviz_plugin_zed_od/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rviz_plugin_zed_od
+[15.424s] -- Installing: /home/men3m/Naima/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/cmake/rviz_plugin_zed_odExport.cmake
+[15.424s] -- Installing: /home/men3m/Naima/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/cmake/rviz_plugin_zed_odExport-noconfig.cmake
+[15.424s] -- Installing: /home/men3m/Naima/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.424s] -- Installing: /home/men3m/Naima/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/cmake/ament_cmake_export_targets-extras.cmake
+[15.425s] -- Installing: /home/men3m/Naima/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.425s] -- Installing: /home/men3m/Naima/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/cmake/rviz_plugin_zed_odConfig.cmake
+[15.425s] -- Installing: /home/men3m/Naima/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/cmake/rviz_plugin_zed_odConfig-version.cmake
+[15.425s] -- Installing: /home/men3m/Naima/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/package.xml
+[15.427s] Invoked command in '/home/men3m/Naima/build/rviz_plugin_zed_od' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/men3m/Naima/build/rviz_plugin_zed_od

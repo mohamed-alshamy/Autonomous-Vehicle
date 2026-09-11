@@ -1,0 +1,46 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/men3m/Naima/install/zed_ipc/include/**",
+        "/home/men3m/Naima/install/zed_topic_benchmark_component/include/**",
+        "/home/men3m/Naima/install/zed_topic_benchmark_interfaces/include/**",
+        "/home/men3m/Naima/install/zed_rgb_convert/include/**",
+        "/home/men3m/Naima/install/zed_aruco_localization/include/**",
+        "/home/men3m/Naima/install/zed_components/include/**",
+        "/home/men3m/Naima/install/ublox_gps/include/**",
+        "/home/men3m/Naima/install/ublox_msgs/include/**",
+        "/home/men3m/Naima/install/ublox_serialization/include/**",
+        "/home/men3m/Naima/install/rviz_plugin_zed_od/include/**",
+        "/home/men3m/Naima/install/naima_examples/include/**",
+        "/home/men3m/Naima/install/naima_msgs/include/**",
+        "/home/men3m/Naima/install/naima_localization/include/**",
+        "/home/men3m/zed2/install/zed_ipc/include/**",
+        "/home/men3m/zed2/install/zed_topic_benchmark_component/include/**",
+        "/home/men3m/zed2/install/zed_topic_benchmark_interfaces/include/**",
+        "/home/men3m/zed2/install/zed_rgb_convert/include/**",
+        "/home/men3m/zed2/install/zed_aruco_localization/include/**",
+        "/home/men3m/zed2/install/zed_components/include/**",
+        "/home/men3m/zed2/install/rviz_plugin_zed_od/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/men3m/Naima/src/naima_examples/include/**",
+        "/home/men3m/Naima/src/naima_localization/include/**",
+        "/home/men3m/Naima/src/naima_msgs/include/**",
+        "/home/men3m/Naima/src/ros2-ublox-zedf9p/ublox_gps/include/**",
+        "/home/men3m/Naima/src/ros2-ublox-zedf9p/ublox_msgs/include/**",
+        "/home/men3m/Naima/src/ros2-ublox-zedf9p/ublox_serialization/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

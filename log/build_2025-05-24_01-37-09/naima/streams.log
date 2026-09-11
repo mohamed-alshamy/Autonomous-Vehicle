@@ -1,0 +1,66 @@
+[0.562s] Invoking command in '/home/men3m/Naima/src/naima': PYTHONPATH=/home/men3m/Naima/build/naima/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/men3m/Naima/install/naima/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/naima build --build-base /home/men3m/Naima/build/naima/build install --record /home/men3m/Naima/build/naima/install.log --single-version-externally-managed install_data
+[0.765s] running egg_info
+[0.765s] creating ../../build/naima/naima.egg-info
+[0.765s] writing ../../build/naima/naima.egg-info/PKG-INFO
+[0.765s] writing dependency_links to ../../build/naima/naima.egg-info/dependency_links.txt
+[0.765s] writing entry points to ../../build/naima/naima.egg-info/entry_points.txt
+[0.765s] writing requirements to ../../build/naima/naima.egg-info/requires.txt
+[0.765s] writing top-level names to ../../build/naima/naima.egg-info/top_level.txt
+[0.765s] writing manifest file '../../build/naima/naima.egg-info/SOURCES.txt'
+[0.767s] reading manifest file '../../build/naima/naima.egg-info/SOURCES.txt'
+[0.767s] writing manifest file '../../build/naima/naima.egg-info/SOURCES.txt'
+[0.767s] running build
+[0.768s] running build_py
+[0.768s] creating /home/men3m/Naima/build/naima/build
+[0.768s] creating /home/men3m/Naima/build/naima/build/lib
+[0.768s] creating /home/men3m/Naima/build/naima/build/lib/naima
+[0.768s] copying naima/__init__.py -> /home/men3m/Naima/build/naima/build/lib/naima
+[0.768s] running install
+[0.768s] running install_lib
+[0.769s] creating /home/men3m/Naima/install/naima/lib/python3.10/site-packages/naima
+[0.769s] copying /home/men3m/Naima/build/naima/build/lib/naima/__init__.py -> /home/men3m/Naima/install/naima/lib/python3.10/site-packages/naima
+[0.769s] byte-compiling /home/men3m/Naima/install/naima/lib/python3.10/site-packages/naima/__init__.py to __init__.cpython-310.pyc
+[0.769s] running install_data
+[0.769s] creating /home/men3m/Naima/install/naima/share/ament_index
+[0.769s] creating /home/men3m/Naima/install/naima/share/ament_index/resource_index
+[0.769s] creating /home/men3m/Naima/install/naima/share/ament_index/resource_index/packages
+[0.769s] copying resource/naima -> /home/men3m/Naima/install/naima/share/ament_index/resource_index/packages
+[0.769s] copying package.xml -> /home/men3m/Naima/install/naima/share/naima
+[0.770s] creating /home/men3m/Naima/install/naima/share/naima/urdf
+[0.770s] copying urdf/naima.urdf.xacro -> /home/men3m/Naima/install/naima/share/naima/urdf
+[0.770s] copying urdf/naima.csv -> /home/men3m/Naima/install/naima/share/naima/urdf
+[0.770s] creating /home/men3m/Naima/install/naima/share/naima/launch
+[0.770s] copying launch/display.launch.py -> /home/men3m/Naima/install/naima/share/naima/launch
+[0.770s] copying launch/gazebo.launch.py -> /home/men3m/Naima/install/naima/share/naima/launch
+[0.770s] creating /home/men3m/Naima/install/naima/share/naima/meshes
+[0.770s] copying meshes/zed_camera_link.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+[0.773s] copying meshes/right_middle_ultra_link.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+[0.774s] copying meshes/front_left_wheel_link.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+[0.774s] copying meshes/rear_left_wheel_link.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+[0.774s] copying meshes/left_steering_hinge.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+[0.774s] copying meshes/left_middle_ultra_link.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+[0.775s] copying meshes/front_left_ultra_link.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+[0.775s] copying meshes/left_rear_ultra_link.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+[0.775s] copying meshes/right_rear_ultra_link.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+[0.776s] copying meshes/front_right_ultra_link.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+[0.776s] copying meshes/left_corner_ultra_link.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+[0.776s] copying meshes/imu_link.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+[0.776s] copying meshes/front_middle_ultra_link.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+[0.777s] copying meshes/front_camera_link.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+[0.783s] copying meshes/base_link.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+[0.784s] copying meshes/steering_link.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+[0.785s] copying meshes/3D_lidar.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+[0.785s] copying meshes/rear_ultra_link.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+[0.785s] copying meshes/rear_wheel.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+[0.785s] copying meshes/rear_right_wheel_link.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+[0.786s] copying meshes/front_right_wheel_link.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+[0.786s] copying meshes/front_steer.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+[0.786s] copying meshes/gps_link.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+[0.789s] copying meshes/right_corner_ultra_link.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+[0.789s] copying meshes/right_steering_hinge.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+[0.789s] creating /home/men3m/Naima/install/naima/share/naima/worlds
+[0.790s] running install_egg_info
+[0.791s] Copying ../../build/naima/naima.egg-info to /home/men3m/Naima/install/naima/lib/python3.10/site-packages/naima-0.0.0-py3.10.egg-info
+[0.792s] running install_scripts
+[0.809s] writing list of installed files to '/home/men3m/Naima/build/naima/install.log'
+[0.828s] Invoked command in '/home/men3m/Naima/src/naima' returned '0': PYTHONPATH=/home/men3m/Naima/build/naima/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/men3m/Naima/install/naima/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/naima build --build-base /home/men3m/Naima/build/naima/build install --record /home/men3m/Naima/build/naima/install.log --single-version-externally-managed install_data

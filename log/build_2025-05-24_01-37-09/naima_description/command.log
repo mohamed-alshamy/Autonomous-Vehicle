@@ -1,0 +1,6 @@
+Invoking command in '/home/men3m/Naima/build/naima_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/men3m/Naima/src/naima_description -DCMAKE_INSTALL_PREFIX=/home/men3m/Naima/install/naima_description
+Invoked command in '/home/men3m/Naima/build/naima_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/men3m/Naima/src/naima_description -DCMAKE_INSTALL_PREFIX=/home/men3m/Naima/install/naima_description
+Invoking command in '/home/men3m/Naima/build/naima_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/men3m/Naima/build/naima_description -- -j16 -l16
+Invoked command in '/home/men3m/Naima/build/naima_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/men3m/Naima/build/naima_description -- -j16 -l16
+Invoking command in '/home/men3m/Naima/build/naima_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/men3m/Naima/build/naima_description
+Invoked command in '/home/men3m/Naima/build/naima_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/men3m/Naima/build/naima_description

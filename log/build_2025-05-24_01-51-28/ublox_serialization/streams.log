@@ -1,0 +1,25 @@
+[0.048s] Invoking command in '/home/men3m/Naima/build/ublox_serialization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/men3m/Naima/build/ublox_serialization -- -j16 -l16
+[0.589s] Invoked command in '/home/men3m/Naima/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/men3m/Naima/build/ublox_serialization -- -j16 -l16
+[0.602s] Invoking command in '/home/men3m/Naima/build/ublox_serialization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/men3m/Naima/build/ublox_serialization
+[0.613s] -- Install configuration: ""
+[0.613s] -- Up-to-date: /home/men3m/Naima/install/ublox_serialization/include
+[0.613s] -- Up-to-date: /home/men3m/Naima/install/ublox_serialization/include/ublox_serialization
+[0.613s] -- Up-to-date: /home/men3m/Naima/install/ublox_serialization/include/ublox_serialization/serialization.hpp
+[0.613s] -- Up-to-date: /home/men3m/Naima/install/ublox_serialization/include/ublox_serialization/checksum.hpp
+[0.613s] -- Up-to-date: /home/men3m/Naima/install/ublox_serialization/share/ament_index/resource_index/package_run_dependencies/ublox_serialization
+[0.614s] -- Up-to-date: /home/men3m/Naima/install/ublox_serialization/share/ament_index/resource_index/parent_prefix_path/ublox_serialization
+[0.614s] -- Up-to-date: /home/men3m/Naima/install/ublox_serialization/share/ublox_serialization/environment/ament_prefix_path.sh
+[0.614s] -- Up-to-date: /home/men3m/Naima/install/ublox_serialization/share/ublox_serialization/environment/ament_prefix_path.dsv
+[0.614s] -- Up-to-date: /home/men3m/Naima/install/ublox_serialization/share/ublox_serialization/environment/path.sh
+[0.614s] -- Up-to-date: /home/men3m/Naima/install/ublox_serialization/share/ublox_serialization/environment/path.dsv
+[0.614s] -- Up-to-date: /home/men3m/Naima/install/ublox_serialization/share/ublox_serialization/local_setup.bash
+[0.614s] -- Up-to-date: /home/men3m/Naima/install/ublox_serialization/share/ublox_serialization/local_setup.sh
+[0.614s] -- Up-to-date: /home/men3m/Naima/install/ublox_serialization/share/ublox_serialization/local_setup.zsh
+[0.614s] -- Up-to-date: /home/men3m/Naima/install/ublox_serialization/share/ublox_serialization/local_setup.dsv
+[0.615s] -- Installing: /home/men3m/Naima/install/ublox_serialization/share/ublox_serialization/package.dsv
+[0.615s] -- Up-to-date: /home/men3m/Naima/install/ublox_serialization/share/ament_index/resource_index/packages/ublox_serialization
+[0.615s] -- Up-to-date: /home/men3m/Naima/install/ublox_serialization/share/ublox_serialization/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.615s] -- Up-to-date: /home/men3m/Naima/install/ublox_serialization/share/ublox_serialization/cmake/ublox_serializationConfig.cmake
+[0.615s] -- Up-to-date: /home/men3m/Naima/install/ublox_serialization/share/ublox_serialization/cmake/ublox_serializationConfig-version.cmake
+[0.615s] -- Up-to-date: /home/men3m/Naima/install/ublox_serialization/share/ublox_serialization/package.xml
+[0.666s] Invoked command in '/home/men3m/Naima/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/men3m/Naima/build/ublox_serialization

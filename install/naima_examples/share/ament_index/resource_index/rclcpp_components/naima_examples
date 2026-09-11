@@ -1,0 +1,2 @@
+naima_examples::SimpleActionServer;lib/libsimple_action_server.so
+naima_examples::SimpleActionClient;lib/libsimple_action_client.so

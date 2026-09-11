@@ -1,0 +1,11 @@
+setup.py
+naima_msgs/__init__.py
+naima_msgs.egg-info/PKG-INFO
+naima_msgs.egg-info/SOURCES.txt
+naima_msgs.egg-info/dependency_links.txt
+naima_msgs.egg-info/top_level.txt
+naima_msgs/action/__init__.py
+naima_msgs/action/_fibonacci.py
+naima_msgs/srv/__init__.py
+naima_msgs/srv/_add_two_ints.py
+naima_msgs/srv/_get_transform.py

@@ -1,0 +1,229 @@
+[0.007s] Invoking command in '/home/men3m/Naima/build/zed_topic_benchmark_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/men3m/Naima/src/zed-ros2-examples/tools/zed_benchmark_interfaces -DCMAKE_INSTALL_PREFIX=/home/men3m/Naima/install/zed_topic_benchmark_interfaces
+[0.054s] -- The C compiler identification is GNU 11.4.0
+[0.100s] -- The CXX compiler identification is GNU 11.4.0
+[0.120s] -- Detecting C compiler ABI info
+[0.238s] -- Detecting C compiler ABI info - done
+[0.251s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.252s] -- Detecting C compile features
+[0.252s] -- Detecting C compile features - done
+[0.255s] -- Detecting CXX compiler ABI info
+[0.329s] -- Detecting CXX compiler ABI info - done
+[0.336s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.336s] -- Detecting CXX compile features
+[0.336s] -- Detecting CXX compile features - done
+[0.339s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.470s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.624s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.629s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.637s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.647s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.661s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.694s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.889s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.259s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.389s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.410s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.411s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.436s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.436s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.436s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.436s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.456s] -- Found PythonExtra: .so  
+[1.497s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.499s] -- Added test 'lint_cmake' to check CMake code style
+[1.499s] -- Added test 'xmllint' to check XML markup files
+[1.504s] -- Configuring done
+[1.535s] -- Generating done
+[1.545s] -- Build files have been written to: /home/men3m/Naima/build/zed_topic_benchmark_interfaces
+[1.555s] Invoked command in '/home/men3m/Naima/build/zed_topic_benchmark_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/men3m/Naima/src/zed-ros2-examples/tools/zed_benchmark_interfaces -DCMAKE_INSTALL_PREFIX=/home/men3m/Naima/install/zed_topic_benchmark_interfaces
+[1.557s] Invoking command in '/home/men3m/Naima/build/zed_topic_benchmark_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/men3m/Naima/build/zed_topic_benchmark_interfaces -- -j16 -l16
+[1.593s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.603s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.619s] [  6%] Built target ament_cmake_python_copy_zed_topic_benchmark_interfaces
+[1.844s] [  9%] [32mBuilding C object CMakeFiles/zed_topic_benchmark_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__functions.c.o[0m
+[1.852s] [  9%] Built target zed_topic_benchmark_interfaces__cpp
+[1.861s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.864s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.865s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.889s] [ 22%] [32m[1mLinking C shared library libzed_topic_benchmark_interfaces__rosidl_generator_c.so[0m
+[1.924s] [ 22%] Built target zed_topic_benchmark_interfaces__rosidl_generator_c
+[1.936s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.937s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.937s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.010s] running egg_info
+[2.011s] creating zed_topic_benchmark_interfaces.egg-info
+[2.011s] writing zed_topic_benchmark_interfaces.egg-info/PKG-INFO
+[2.011s] writing dependency_links to zed_topic_benchmark_interfaces.egg-info/dependency_links.txt
+[2.011s] writing top-level names to zed_topic_benchmark_interfaces.egg-info/top_level.txt
+[2.012s] writing manifest file 'zed_topic_benchmark_interfaces.egg-info/SOURCES.txt'
+[2.015s] reading manifest file 'zed_topic_benchmark_interfaces.egg-info/SOURCES.txt'
+[2.016s] writing manifest file 'zed_topic_benchmark_interfaces.egg-info/SOURCES.txt'
+[2.064s] [ 32%] Built target ament_cmake_python_build_zed_topic_benchmark_interfaces_egg
+[2.234s] [ 35%] [32mBuilding CXX object CMakeFiles/zed_topic_benchmark_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_topic_benchmark_interfaces/msg/benchmark_stats_stamped__type_support.cpp.o[0m
+[2.252s] [ 38%] [32mBuilding CXX object CMakeFiles/zed_topic_benchmark_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__type_support.cpp.o[0m
+[2.305s] [ 41%] [32mBuilding CXX object CMakeFiles/zed_topic_benchmark_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_topic_benchmark_interfaces/msg/benchmark_stats_stamped__type_support.cpp.o[0m
+[2.308s] [ 45%] [32mBuilding CXX object CMakeFiles/zed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_topic_benchmark_interfaces/msg/detail/dds_fastrtps/benchmark_stats_stamped__type_support.cpp.o[0m
+[2.325s] [ 48%] [32mBuilding C object CMakeFiles/zed_topic_benchmark_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__type_support.c.o[0m
+[2.341s] [ 51%] [32m[1mLinking CXX shared library libzed_topic_benchmark_interfaces__rosidl_typesupport_c.so[0m
+[2.363s] [ 54%] [32m[1mLinking C shared library libzed_topic_benchmark_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.371s] [ 58%] [32mBuilding CXX object CMakeFiles/zed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__type_support_c.cpp.o[0m
+[2.399s] [ 58%] Built target zed_topic_benchmark_interfaces__rosidl_typesupport_introspection_c
+[2.399s] [ 58%] Built target zed_topic_benchmark_interfaces__rosidl_typesupport_c
+[2.580s] [ 61%] [32m[1mLinking CXX shared library libzed_topic_benchmark_interfaces__rosidl_typesupport_cpp.so[0m
+[2.637s] [ 61%] Built target zed_topic_benchmark_interfaces__rosidl_typesupport_cpp
+[2.663s] [ 64%] [32m[1mLinking CXX shared library libzed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.701s] [ 67%] [32m[1mLinking CXX shared library libzed_topic_benchmark_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.742s] [ 67%] Built target zed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_c
+[2.789s] [ 67%] Built target zed_topic_benchmark_interfaces__rosidl_typesupport_introspection_cpp
+[2.799s] [ 70%] [32m[1mLinking CXX shared library libzed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.871s] [ 70%] Built target zed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.890s] [ 70%] Built target zed_topic_benchmark_interfaces
+[2.910s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.221s] [ 74%] Built target zed_topic_benchmark_interfaces__py
+[3.241s] [ 77%] [32mBuilding C object CMakeFiles/zed_topic_benchmark_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zed_topic_benchmark_interfaces/msg/_benchmark_stats_stamped_s.c.o[0m
+[3.333s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/zed_topic_benchmark_interfaces/libzed_topic_benchmark_interfaces__rosidl_generator_py.so[0m
+[3.373s] [ 80%] Built target zed_topic_benchmark_interfaces__rosidl_generator_py
+[3.393s] [ 83%] [32mBuilding C object CMakeFiles/zed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/zed_topic_benchmark_interfaces/_zed_topic_benchmark_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.394s] [ 87%] [32mBuilding C object CMakeFiles/zed_topic_benchmark_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/zed_topic_benchmark_interfaces/_zed_topic_benchmark_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.394s] [ 90%] [32mBuilding C object CMakeFiles/zed_topic_benchmark_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/zed_topic_benchmark_interfaces/_zed_topic_benchmark_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.486s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.517s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.520s] [100%] [32m[1mLinking C shared library rosidl_generator_py/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.522s] [100%] Built target zed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.553s] [100%] Built target zed_topic_benchmark_interfaces__rosidl_typesupport_c__pyext
+[3.554s] [100%] Built target zed_topic_benchmark_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.566s] Invoked command in '/home/men3m/Naima/build/zed_topic_benchmark_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/men3m/Naima/build/zed_topic_benchmark_interfaces -- -j16 -l16
+[3.568s] Invoking command in '/home/men3m/Naima/build/zed_topic_benchmark_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/men3m/Naima/build/zed_topic_benchmark_interfaces
+[3.575s] -- Install configuration: ""
+[3.575s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/share/ament_index/resource_index/rosidl_interfaces/zed_topic_benchmark_interfaces
+[3.576s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces
+[3.576s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg
+[3.576s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.576s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/benchmark_stats_stamped.h
+[3.576s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail
+[3.576s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__struct.h
+[3.577s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__type_support.h
+[3.577s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__functions.c
+[3.577s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__functions.h
+[3.577s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/environment/library_path.sh
+[3.577s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/environment/library_path.dsv
+[3.578s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/lib/libzed_topic_benchmark_interfaces__rosidl_generator_c.so
+[3.578s] -- Set runtime path of "/home/men3m/Naima/install/zed_topic_benchmark_interfaces/lib/libzed_topic_benchmark_interfaces__rosidl_generator_c.so" to ""
+[3.578s] -- Up-to-date: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces
+[3.578s] -- Up-to-date: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg
+[3.578s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.579s] -- Up-to-date: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail
+[3.579s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__rosidl_typesupport_fastrtps_c.h
+[3.579s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/lib/libzed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.579s] -- Set runtime path of "/home/men3m/Naima/install/zed_topic_benchmark_interfaces/lib/libzed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[3.579s] -- Up-to-date: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces
+[3.579s] -- Up-to-date: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg
+[3.579s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/benchmark_stats_stamped.hpp
+[3.580s] -- Up-to-date: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail
+[3.580s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__traits.hpp
+[3.580s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__type_support.hpp
+[3.580s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__builder.hpp
+[3.580s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__struct.hpp
+[3.580s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.581s] -- Up-to-date: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces
+[3.581s] -- Up-to-date: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg
+[3.581s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.581s] -- Up-to-date: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail
+[3.581s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail/dds_fastrtps
+[3.581s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[3.581s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/lib/libzed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.582s] -- Set runtime path of "/home/men3m/Naima/install/zed_topic_benchmark_interfaces/lib/libzed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.582s] -- Up-to-date: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces
+[3.582s] -- Up-to-date: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg
+[3.582s] -- Up-to-date: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail
+[3.582s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__rosidl_typesupport_introspection_c.h
+[3.582s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__type_support.c
+[3.582s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.583s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/lib/libzed_topic_benchmark_interfaces__rosidl_typesupport_introspection_c.so
+[3.583s] -- Set runtime path of "/home/men3m/Naima/install/zed_topic_benchmark_interfaces/lib/libzed_topic_benchmark_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[3.583s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/lib/libzed_topic_benchmark_interfaces__rosidl_typesupport_c.so
+[3.583s] -- Set runtime path of "/home/men3m/Naima/install/zed_topic_benchmark_interfaces/lib/libzed_topic_benchmark_interfaces__rosidl_typesupport_c.so" to ""
+[3.583s] -- Up-to-date: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces
+[3.584s] -- Up-to-date: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg
+[3.584s] -- Up-to-date: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail
+[3.584s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__rosidl_typesupport_introspection_cpp.hpp
+[3.584s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__type_support.cpp
+[3.584s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/lib/libzed_topic_benchmark_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.584s] -- Set runtime path of "/home/men3m/Naima/install/zed_topic_benchmark_interfaces/lib/libzed_topic_benchmark_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[3.585s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/lib/libzed_topic_benchmark_interfaces__rosidl_typesupport_cpp.so
+[3.585s] -- Set runtime path of "/home/men3m/Naima/install/zed_topic_benchmark_interfaces/lib/libzed_topic_benchmark_interfaces__rosidl_typesupport_cpp.so" to ""
+[3.585s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/environment/pythonpath.sh
+[3.585s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/environment/pythonpath.dsv
+[3.585s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces-5.0.0-py3.10.egg-info
+[3.586s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces-5.0.0-py3.10.egg-info/dependency_links.txt
+[3.586s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces-5.0.0-py3.10.egg-info/top_level.txt
+[3.586s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces-5.0.0-py3.10.egg-info/SOURCES.txt
+[3.586s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces-5.0.0-py3.10.egg-info/PKG-INFO
+[3.586s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces
+[3.586s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/libzed_topic_benchmark_interfaces__rosidl_generator_py.so
+[3.587s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.587s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/_zed_topic_benchmark_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.587s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/msg
+[3.587s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/msg/_benchmark_stats_stamped.py
+[3.587s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/msg/_benchmark_stats_stamped_s.c
+[3.587s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/msg/__init__.py
+[3.588s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/_zed_topic_benchmark_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.588s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.588s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.588s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/_zed_topic_benchmark_interfaces_s.ep.rosidl_typesupport_c.c
+[3.588s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/__init__.py
+[3.616s] Listing '/home/men3m/Naima/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces'...
+[3.617s] Compiling '/home/men3m/Naima/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/__init__.py'...
+[3.617s] Listing '/home/men3m/Naima/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/msg'...
+[3.617s] Compiling '/home/men3m/Naima/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/msg/__init__.py'...
+[3.617s] Compiling '/home/men3m/Naima/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/msg/_benchmark_stats_stamped.py'...
+[3.621s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.621s] -- Set runtime path of "/home/men3m/Naima/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.621s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.622s] -- Set runtime path of "/home/men3m/Naima/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.622s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.622s] -- Set runtime path of "/home/men3m/Naima/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.622s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/lib/libzed_topic_benchmark_interfaces__rosidl_generator_py.so
+[3.623s] -- Set runtime path of "/home/men3m/Naima/install/zed_topic_benchmark_interfaces/lib/libzed_topic_benchmark_interfaces__rosidl_generator_py.so" to ""
+[3.623s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/msg/BenchmarkStatsStamped.idl
+[3.623s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/msg/BenchmarkStatsStamped.msg
+[3.623s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/share/ament_index/resource_index/package_run_dependencies/zed_topic_benchmark_interfaces
+[3.623s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/share/ament_index/resource_index/parent_prefix_path/zed_topic_benchmark_interfaces
+[3.624s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/environment/ament_prefix_path.sh
+[3.624s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/environment/ament_prefix_path.dsv
+[3.624s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/environment/path.sh
+[3.624s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/environment/path.dsv
+[3.624s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/local_setup.bash
+[3.624s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/local_setup.sh
+[3.624s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/local_setup.zsh
+[3.625s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/local_setup.dsv
+[3.625s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/package.dsv
+[3.625s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/share/ament_index/resource_index/packages/zed_topic_benchmark_interfaces
+[3.625s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/export_zed_topic_benchmark_interfaces__rosidl_generator_cExport.cmake
+[3.625s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/export_zed_topic_benchmark_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.625s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/export_zed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.626s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/export_zed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.626s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/export_zed_topic_benchmark_interfaces__rosidl_generator_cppExport.cmake
+[3.626s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/export_zed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.626s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/export_zed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.626s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/zed_topic_benchmark_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.626s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/zed_topic_benchmark_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.627s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/zed_topic_benchmark_interfaces__rosidl_typesupport_cExport.cmake
+[3.627s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/zed_topic_benchmark_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.627s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/zed_topic_benchmark_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.627s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/zed_topic_benchmark_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.627s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/zed_topic_benchmark_interfaces__rosidl_typesupport_cppExport.cmake
+[3.627s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/zed_topic_benchmark_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.628s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/export_zed_topic_benchmark_interfaces__rosidl_generator_pyExport.cmake
+[3.628s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/export_zed_topic_benchmark_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.628s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.628s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.628s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.628s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.628s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.629s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.629s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.629s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/zed_topic_benchmark_interfacesConfig.cmake
+[3.629s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/zed_topic_benchmark_interfacesConfig-version.cmake
+[3.629s] -- Installing: /home/men3m/Naima/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/package.xml
+[3.631s] Invoked command in '/home/men3m/Naima/build/zed_topic_benchmark_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/men3m/Naima/build/zed_topic_benchmark_interfaces

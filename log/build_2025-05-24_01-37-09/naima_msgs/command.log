@@ -1,0 +1,6 @@
+Invoking command in '/home/men3m/Naima/build/naima_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/men3m/Naima/src/naima_msgs -DCMAKE_INSTALL_PREFIX=/home/men3m/Naima/install/naima_msgs
+Invoked command in '/home/men3m/Naima/build/naima_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/men3m/Naima/src/naima_msgs -DCMAKE_INSTALL_PREFIX=/home/men3m/Naima/install/naima_msgs
+Invoking command in '/home/men3m/Naima/build/naima_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/men3m/Naima/build/naima_msgs -- -j16 -l16
+Invoked command in '/home/men3m/Naima/build/naima_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/men3m/Naima/build/naima_msgs -- -j16 -l16
+Invoking command in '/home/men3m/Naima/build/naima_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/men3m/Naima/build/naima_msgs
+Invoked command in '/home/men3m/Naima/build/naima_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/men3m/Naima/build/naima_msgs

@@ -1,0 +1,6 @@
+Invoking command in '/home/men3m/Naima/build/ublox_serialization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/men3m/Naima/src/naima_ublox_gps/ublox_serialization -DCMAKE_INSTALL_PREFIX=/home/men3m/Naima/install/ublox_serialization
+Invoked command in '/home/men3m/Naima/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/men3m/Naima/src/naima_ublox_gps/ublox_serialization -DCMAKE_INSTALL_PREFIX=/home/men3m/Naima/install/ublox_serialization
+Invoking command in '/home/men3m/Naima/build/ublox_serialization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/men3m/Naima/build/ublox_serialization -- -j16 -l16
+Invoked command in '/home/men3m/Naima/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/men3m/Naima/build/ublox_serialization -- -j16 -l16
+Invoking command in '/home/men3m/Naima/build/ublox_serialization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/men3m/Naima/build/ublox_serialization
+Invoked command in '/home/men3m/Naima/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/men3m/Naima/build/ublox_serialization

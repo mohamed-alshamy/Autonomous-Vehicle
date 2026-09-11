@@ -1,0 +1,13 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/men3m/Naima/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages",
+        "/home/men3m/Naima/install/ublox_msgs/local/lib/python3.10/dist-packages",
+        "/home/men3m/Naima/install/naima_msgs/local/lib/python3.10/dist-packages",
+        "/home/men3m/Naima/install/naima_localization/local/lib/python3.10/dist-packages",
+        "/home/men3m/Naima/install/naima/lib/python3.10/site-packages",
+        "/home/men3m/zed2/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages",
+        "/home/men3m/catkin_ws/devel/lib/python3/dist-packages"
+    ]
+}

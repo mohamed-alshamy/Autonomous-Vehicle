@@ -1,0 +1,64 @@
+running egg_info
+creating ../../build/naima/naima.egg-info
+writing ../../build/naima/naima.egg-info/PKG-INFO
+writing dependency_links to ../../build/naima/naima.egg-info/dependency_links.txt
+writing entry points to ../../build/naima/naima.egg-info/entry_points.txt
+writing requirements to ../../build/naima/naima.egg-info/requires.txt
+writing top-level names to ../../build/naima/naima.egg-info/top_level.txt
+writing manifest file '../../build/naima/naima.egg-info/SOURCES.txt'
+reading manifest file '../../build/naima/naima.egg-info/SOURCES.txt'
+writing manifest file '../../build/naima/naima.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/men3m/Naima/build/naima/build
+creating /home/men3m/Naima/build/naima/build/lib
+creating /home/men3m/Naima/build/naima/build/lib/naima
+copying naima/__init__.py -> /home/men3m/Naima/build/naima/build/lib/naima
+running install
+running install_lib
+creating /home/men3m/Naima/install/naima/lib/python3.10/site-packages/naima
+copying /home/men3m/Naima/build/naima/build/lib/naima/__init__.py -> /home/men3m/Naima/install/naima/lib/python3.10/site-packages/naima
+byte-compiling /home/men3m/Naima/install/naima/lib/python3.10/site-packages/naima/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/men3m/Naima/install/naima/share/ament_index
+creating /home/men3m/Naima/install/naima/share/ament_index/resource_index
+creating /home/men3m/Naima/install/naima/share/ament_index/resource_index/packages
+copying resource/naima -> /home/men3m/Naima/install/naima/share/ament_index/resource_index/packages
+copying package.xml -> /home/men3m/Naima/install/naima/share/naima
+creating /home/men3m/Naima/install/naima/share/naima/urdf
+copying urdf/naima.urdf.xacro -> /home/men3m/Naima/install/naima/share/naima/urdf
+copying urdf/naima.csv -> /home/men3m/Naima/install/naima/share/naima/urdf
+creating /home/men3m/Naima/install/naima/share/naima/launch
+copying launch/display.launch.py -> /home/men3m/Naima/install/naima/share/naima/launch
+copying launch/gazebo.launch.py -> /home/men3m/Naima/install/naima/share/naima/launch
+creating /home/men3m/Naima/install/naima/share/naima/meshes
+copying meshes/zed_camera_link.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+copying meshes/right_middle_ultra_link.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+copying meshes/front_left_wheel_link.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+copying meshes/rear_left_wheel_link.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+copying meshes/left_steering_hinge.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+copying meshes/left_middle_ultra_link.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+copying meshes/front_left_ultra_link.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+copying meshes/left_rear_ultra_link.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+copying meshes/right_rear_ultra_link.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+copying meshes/front_right_ultra_link.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+copying meshes/left_corner_ultra_link.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+copying meshes/imu_link.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+copying meshes/front_middle_ultra_link.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+copying meshes/front_camera_link.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+copying meshes/base_link.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+copying meshes/steering_link.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+copying meshes/3D_lidar.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+copying meshes/rear_ultra_link.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+copying meshes/rear_wheel.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+copying meshes/rear_right_wheel_link.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+copying meshes/front_right_wheel_link.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+copying meshes/front_steer.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+copying meshes/gps_link.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+copying meshes/right_corner_ultra_link.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+copying meshes/right_steering_hinge.STL -> /home/men3m/Naima/install/naima/share/naima/meshes
+creating /home/men3m/Naima/install/naima/share/naima/worlds
+running install_egg_info
+Copying ../../build/naima/naima.egg-info to /home/men3m/Naima/install/naima/lib/python3.10/site-packages/naima-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/men3m/Naima/build/naima/install.log'

@@ -1,0 +1,6 @@
+Invoking command in '/home/men3m/Naima/build/rviz_plugin_zed_od': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/men3m/Naima/src/zed-ros2-examples/rviz-plugin-zed-od -DCMAKE_INSTALL_PREFIX=/home/men3m/Naima/install/rviz_plugin_zed_od
+Invoked command in '/home/men3m/Naima/build/rviz_plugin_zed_od' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/men3m/Naima/src/zed-ros2-examples/rviz-plugin-zed-od -DCMAKE_INSTALL_PREFIX=/home/men3m/Naima/install/rviz_plugin_zed_od
+Invoking command in '/home/men3m/Naima/build/rviz_plugin_zed_od': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/men3m/Naima/build/rviz_plugin_zed_od -- -j16 -l16
+Invoked command in '/home/men3m/Naima/build/rviz_plugin_zed_od' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/men3m/Naima/build/rviz_plugin_zed_od -- -j16 -l16
+Invoking command in '/home/men3m/Naima/build/rviz_plugin_zed_od': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/men3m/Naima/build/rviz_plugin_zed_od
+Invoked command in '/home/men3m/Naima/build/rviz_plugin_zed_od' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/men3m/Naima/build/rviz_plugin_zed_od

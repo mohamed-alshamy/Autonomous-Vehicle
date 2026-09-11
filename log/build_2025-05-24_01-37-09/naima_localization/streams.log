@@ -1,0 +1,115 @@
+[0.006s] Invoking command in '/home/men3m/Naima/build/naima_localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/men3m/Naima/src/naima_localization -DCMAKE_INSTALL_PREFIX=/home/men3m/Naima/install/naima_localization
+[0.057s] -- The C compiler identification is GNU 11.4.0
+[0.109s] -- The CXX compiler identification is GNU 11.4.0
+[0.116s] -- Detecting C compiler ABI info
+[0.183s] -- Detecting C compiler ABI info - done
+[0.190s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.190s] -- Detecting C compile features
+[0.190s] -- Detecting C compile features - done
+[0.193s] -- Detecting CXX compiler ABI info
+[0.268s] -- Detecting CXX compiler ABI info - done
+[0.275s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.276s] -- Detecting CXX compile features
+[0.276s] -- Detecting CXX compile features - done
+[0.279s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.398s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.480s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.530s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.534s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.542s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.553s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.566s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.604s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.607s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.628s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.641s] -- Looking for pthread.h
+[0.725s] -- Looking for pthread.h - found
+[0.725s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.813s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.814s] -- Found Threads: TRUE  
+[0.925s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[0.929s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.979s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.262s] -- Configuring done
+[1.285s] -- Generating done
+[1.295s] -- Build files have been written to: /home/men3m/Naima/build/naima_localization
+[1.325s] Invoked command in '/home/men3m/Naima/build/naima_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/men3m/Naima/src/naima_localization -DCMAKE_INSTALL_PREFIX=/home/men3m/Naima/install/naima_localization
+[1.327s] Invoking command in '/home/men3m/Naima/build/naima_localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/men3m/Naima/build/naima_localization -- -j16 -l16
+[1.399s] [ 25%] [32mBuilding CXX object CMakeFiles/imu_republisher.dir/src/imu_republisher.cpp.o[0m
+[1.402s] [ 50%] [32mBuilding CXX object CMakeFiles/kalman_filter.dir/src/kalman_filter.cpp.o[0m
+[1.477s] [ 50%] Built target ament_cmake_python_copy_naima_localization
+[1.732s] running egg_info
+[1.733s] creating naima_localization.egg-info
+[1.733s] writing naima_localization.egg-info/PKG-INFO
+[1.733s] writing dependency_links to naima_localization.egg-info/dependency_links.txt
+[1.734s] writing top-level names to naima_localization.egg-info/top_level.txt
+[1.734s] writing manifest file 'naima_localization.egg-info/SOURCES.txt'
+[1.736s] reading manifest file 'naima_localization.egg-info/SOURCES.txt'
+[1.736s] writing manifest file 'naima_localization.egg-info/SOURCES.txt'
+[1.769s] [ 50%] Built target ament_cmake_python_build_naima_localization_egg
+[13.499s] [ 75%] [32m[1mLinking CXX executable imu_republisher[0m
+[14.293s] [ 75%] Built target imu_republisher
+[16.084s] [100%] [32m[1mLinking CXX executable kalman_filter[0m
+[16.782s] [100%] Built target kalman_filter
+[16.798s] Invoked command in '/home/men3m/Naima/build/naima_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/men3m/Naima/build/naima_localization -- -j16 -l16
+[16.800s] Invoking command in '/home/men3m/Naima/build/naima_localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/men3m/Naima/build/naima_localization
+[16.808s] -- Install configuration: ""
+[16.808s] -- Installing: /home/men3m/Naima/install/naima_localization/share/naima_localization/environment/pythonpath.sh
+[16.809s] -- Installing: /home/men3m/Naima/install/naima_localization/share/naima_localization/environment/pythonpath.dsv
+[16.809s] -- Installing: /home/men3m/Naima/install/naima_localization/local/lib/python3.10/dist-packages/naima_localization-0.0.0-py3.10.egg-info
+[16.809s] -- Installing: /home/men3m/Naima/install/naima_localization/local/lib/python3.10/dist-packages/naima_localization-0.0.0-py3.10.egg-info/dependency_links.txt
+[16.809s] -- Installing: /home/men3m/Naima/install/naima_localization/local/lib/python3.10/dist-packages/naima_localization-0.0.0-py3.10.egg-info/top_level.txt
+[16.809s] -- Installing: /home/men3m/Naima/install/naima_localization/local/lib/python3.10/dist-packages/naima_localization-0.0.0-py3.10.egg-info/SOURCES.txt
+[16.809s] -- Installing: /home/men3m/Naima/install/naima_localization/local/lib/python3.10/dist-packages/naima_localization-0.0.0-py3.10.egg-info/PKG-INFO
+[16.809s] -- Installing: /home/men3m/Naima/install/naima_localization/local/lib/python3.10/dist-packages/naima_localization
+[16.810s] -- Installing: /home/men3m/Naima/install/naima_localization/local/lib/python3.10/dist-packages/naima_localization/kalman_filter.py
+[16.810s] -- Installing: /home/men3m/Naima/install/naima_localization/local/lib/python3.10/dist-packages/naima_localization/imu_republisher.py
+[16.810s] -- Installing: /home/men3m/Naima/install/naima_localization/local/lib/python3.10/dist-packages/naima_localization/__init__.py
+[16.854s] Listing '/home/men3m/Naima/install/naima_localization/local/lib/python3.10/dist-packages/naima_localization'...
+[16.854s] Compiling '/home/men3m/Naima/install/naima_localization/local/lib/python3.10/dist-packages/naima_localization/__init__.py'...
+[16.854s] Compiling '/home/men3m/Naima/install/naima_localization/local/lib/python3.10/dist-packages/naima_localization/imu_republisher.py'...
+[16.854s] Compiling '/home/men3m/Naima/install/naima_localization/local/lib/python3.10/dist-packages/naima_localization/kalman_filter.py'...
+[16.859s] -- Installing: /home/men3m/Naima/install/naima_localization/include/include
+[16.859s] -- Installing: /home/men3m/Naima/install/naima_localization/include/include/naima_localization
+[16.859s] -- Installing: /home/men3m/Naima/install/naima_localization/include/include/naima_localization/kalman_filter.hpp
+[16.860s] -- Installing: /home/men3m/Naima/install/naima_localization/lib/naima_localization/kalman_filter
+[16.869s] -- Set runtime path of "/home/men3m/Naima/install/naima_localization/lib/naima_localization/kalman_filter" to ""
+[16.869s] -- Installing: /home/men3m/Naima/install/naima_localization/lib/naima_localization/imu_republisher
+[16.876s] -- Set runtime path of "/home/men3m/Naima/install/naima_localization/lib/naima_localization/imu_republisher" to ""
+[16.876s] -- Installing: /home/men3m/Naima/install/naima_localization/share/naima_localization/launch
+[16.876s] -- Installing: /home/men3m/Naima/install/naima_localization/share/naima_localization/launch/navsat_transform.launch.py
+[16.876s] -- Installing: /home/men3m/Naima/install/naima_localization/share/naima_localization/launch/global_localization.launch.py
+[16.876s] -- Installing: /home/men3m/Naima/install/naima_localization/share/naima_localization/launch/global.launch.py
+[16.876s] -- Installing: /home/men3m/Naima/install/naima_localization/share/naima_localization/launch/global_localization_map1.py
+[16.876s] -- Installing: /home/men3m/Naima/install/naima_localization/share/naima_localization/launch/navigation.launch.py
+[16.876s] -- Installing: /home/men3m/Naima/install/naima_localization/share/naima_localization/launch/local.launch.py
+[16.877s] -- Installing: /home/men3m/Naima/install/naima_localization/share/naima_localization/launch/mappp.launch.py
+[16.877s] -- Installing: /home/men3m/Naima/install/naima_localization/share/naima_localization/launch/localization_launch.py
+[16.877s] -- Installing: /home/men3m/Naima/install/naima_localization/share/naima_localization/launch/local_localization.launch.py
+[16.877s] -- Installing: /home/men3m/Naima/install/naima_localization/share/naima_localization/launch/dual_ekf_and_navsat.launch.py
+[16.877s] -- Installing: /home/men3m/Naima/install/naima_localization/share/naima_localization/config
+[16.877s] -- Installing: /home/men3m/Naima/install/naima_localization/share/naima_localization/config/mapper_params_localization.yaml
+[16.878s] -- Installing: /home/men3m/Naima/install/naima_localization/share/naima_localization/config/navsat_transform.yaml
+[16.878s] -- Installing: /home/men3m/Naima/install/naima_localization/share/naima_localization/config/dual_ekf_and_navsat.yaml
+[16.878s] -- Installing: /home/men3m/Naima/install/naima_localization/share/naima_localization/config/map_server_params.yaml
+[16.878s] -- Installing: /home/men3m/Naima/install/naima_localization/share/naima_localization/config/global_ekf.yaml
+[16.878s] -- Installing: /home/men3m/Naima/install/naima_localization/share/naima_localization/config/nav2.yaml
+[16.879s] -- Installing: /home/men3m/Naima/install/naima_localization/share/naima_localization/config/ekf.yaml
+[16.879s] -- Installing: /home/men3m/Naima/install/naima_localization/lib/naima_localization/kalman_filter.py
+[16.879s] -- Installing: /home/men3m/Naima/install/naima_localization/lib/naima_localization/imu_republisher.py
+[16.879s] -- Installing: /home/men3m/Naima/install/naima_localization/share/ament_index/resource_index/package_run_dependencies/naima_localization
+[16.880s] -- Installing: /home/men3m/Naima/install/naima_localization/share/ament_index/resource_index/parent_prefix_path/naima_localization
+[16.880s] -- Installing: /home/men3m/Naima/install/naima_localization/share/naima_localization/environment/ament_prefix_path.sh
+[16.880s] -- Installing: /home/men3m/Naima/install/naima_localization/share/naima_localization/environment/ament_prefix_path.dsv
+[16.880s] -- Installing: /home/men3m/Naima/install/naima_localization/share/naima_localization/environment/path.sh
+[16.880s] -- Installing: /home/men3m/Naima/install/naima_localization/share/naima_localization/environment/path.dsv
+[16.881s] -- Installing: /home/men3m/Naima/install/naima_localization/share/naima_localization/local_setup.bash
+[16.881s] -- Installing: /home/men3m/Naima/install/naima_localization/share/naima_localization/local_setup.sh
+[16.881s] -- Installing: /home/men3m/Naima/install/naima_localization/share/naima_localization/local_setup.zsh
+[16.881s] -- Installing: /home/men3m/Naima/install/naima_localization/share/naima_localization/local_setup.dsv
+[16.881s] -- Installing: /home/men3m/Naima/install/naima_localization/share/naima_localization/package.dsv
+[16.882s] -- Installing: /home/men3m/Naima/install/naima_localization/share/ament_index/resource_index/packages/naima_localization
+[16.882s] -- Installing: /home/men3m/Naima/install/naima_localization/share/naima_localization/cmake/naima_localizationConfig.cmake
+[16.882s] -- Installing: /home/men3m/Naima/install/naima_localization/share/naima_localization/cmake/naima_localizationConfig-version.cmake
+[16.882s] -- Installing: /home/men3m/Naima/install/naima_localization/share/naima_localization/package.xml
+[16.885s] Invoked command in '/home/men3m/Naima/build/naima_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/men3m/Naima/build/naima_localization

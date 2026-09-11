@@ -1,0 +1,52 @@
+[0.541s] Invoking command in '/home/men3m/Naima/build/naima_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/men3m/Naima/build/naima_description -- -j16 -l16
+[0.640s] Invoked command in '/home/men3m/Naima/build/naima_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/men3m/Naima/build/naima_description -- -j16 -l16
+[0.640s] Invoking command in '/home/men3m/Naima/build/naima_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/men3m/Naima/build/naima_description
+[0.652s] -- Install configuration: ""
+[0.652s] -- Up-to-date: /home/men3m/Naima/install/naima_description/share/naima_description/launch
+[0.652s] -- Up-to-date: /home/men3m/Naima/install/naima_description/share/naima_description/launch/display.launch.py
+[0.652s] -- Up-to-date: /home/men3m/Naima/install/naima_description/share/naima_description/launch/gazebo.launch.py
+[0.652s] -- Up-to-date: /home/men3m/Naima/install/naima_description/share/naima_description/urdf
+[0.652s] -- Up-to-date: /home/men3m/Naima/install/naima_description/share/naima_description/urdf/naima.urdf.xacro
+[0.653s] -- Up-to-date: /home/men3m/Naima/install/naima_description/share/naima_description/urdf/naima.csv
+[0.653s] -- Up-to-date: /home/men3m/Naima/install/naima_description/share/naima_description/meshes
+[0.653s] -- Up-to-date: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/zed_camera_link.STL
+[0.653s] -- Up-to-date: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/right_middle_ultra_link.STL
+[0.653s] -- Up-to-date: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/front_left_wheel_link.STL
+[0.654s] -- Up-to-date: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/rear_left_wheel_link.STL
+[0.654s] -- Up-to-date: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/left_steering_hinge.STL
+[0.654s] -- Up-to-date: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/left_middle_ultra_link.STL
+[0.654s] -- Up-to-date: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/front_left_ultra_link.STL
+[0.654s] -- Up-to-date: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/left_rear_ultra_link.STL
+[0.654s] -- Up-to-date: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/right_rear_ultra_link.STL
+[0.654s] -- Up-to-date: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/front_right_ultra_link.STL
+[0.654s] -- Up-to-date: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/left_corner_ultra_link.STL
+[0.654s] -- Up-to-date: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/imu_link.STL
+[0.654s] -- Up-to-date: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/front_middle_ultra_link.STL
+[0.655s] -- Up-to-date: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/front_camera_link.STL
+[0.655s] -- Up-to-date: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/base_link.STL
+[0.655s] -- Up-to-date: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/steering_link.STL
+[0.655s] -- Up-to-date: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/3D_lidar.STL
+[0.655s] -- Up-to-date: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/rear_ultra_link.STL
+[0.655s] -- Up-to-date: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/rear_wheel.STL
+[0.655s] -- Up-to-date: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/rear_right_wheel_link.STL
+[0.656s] -- Up-to-date: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/front_right_wheel_link.STL
+[0.656s] -- Up-to-date: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/front_steer.STL
+[0.656s] -- Up-to-date: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/gps_link.STL
+[0.656s] -- Up-to-date: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/right_corner_ultra_link.STL
+[0.656s] -- Up-to-date: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/right_steering_hinge.STL
+[0.656s] -- Up-to-date: /home/men3m/Naima/install/naima_description/share/ament_index/resource_index/package_run_dependencies/naima_description
+[0.656s] -- Up-to-date: /home/men3m/Naima/install/naima_description/share/ament_index/resource_index/parent_prefix_path/naima_description
+[0.656s] -- Up-to-date: /home/men3m/Naima/install/naima_description/share/naima_description/environment/ament_prefix_path.sh
+[0.656s] -- Up-to-date: /home/men3m/Naima/install/naima_description/share/naima_description/environment/ament_prefix_path.dsv
+[0.657s] -- Up-to-date: /home/men3m/Naima/install/naima_description/share/naima_description/environment/path.sh
+[0.657s] -- Up-to-date: /home/men3m/Naima/install/naima_description/share/naima_description/environment/path.dsv
+[0.658s] -- Up-to-date: /home/men3m/Naima/install/naima_description/share/naima_description/local_setup.bash
+[0.658s] -- Up-to-date: /home/men3m/Naima/install/naima_description/share/naima_description/local_setup.sh
+[0.658s] -- Up-to-date: /home/men3m/Naima/install/naima_description/share/naima_description/local_setup.zsh
+[0.658s] -- Up-to-date: /home/men3m/Naima/install/naima_description/share/naima_description/local_setup.dsv
+[0.658s] -- Installing: /home/men3m/Naima/install/naima_description/share/naima_description/package.dsv
+[0.658s] -- Up-to-date: /home/men3m/Naima/install/naima_description/share/ament_index/resource_index/packages/naima_description
+[0.658s] -- Up-to-date: /home/men3m/Naima/install/naima_description/share/naima_description/cmake/naima_descriptionConfig.cmake
+[0.658s] -- Up-to-date: /home/men3m/Naima/install/naima_description/share/naima_description/cmake/naima_descriptionConfig-version.cmake
+[0.659s] -- Up-to-date: /home/men3m/Naima/install/naima_description/share/naima_description/package.xml
+[0.728s] Invoked command in '/home/men3m/Naima/build/naima_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/men3m/Naima/build/naima_description

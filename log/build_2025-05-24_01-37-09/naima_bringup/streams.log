@@ -1,0 +1,41 @@
+[0.562s] Invoking command in '/home/men3m/Naima/src/naima_bringup': PYTHONPATH=/home/men3m/Naima/build/naima_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/men3m/Naima/install/naima_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/naima_bringup build --build-base /home/men3m/Naima/build/naima_bringup/build install --record /home/men3m/Naima/build/naima_bringup/install.log --single-version-externally-managed install_data
+[0.767s] running egg_info
+[0.767s] creating ../../build/naima_bringup/naima_bringup.egg-info
+[0.767s] writing ../../build/naima_bringup/naima_bringup.egg-info/PKG-INFO
+[0.767s] writing dependency_links to ../../build/naima_bringup/naima_bringup.egg-info/dependency_links.txt
+[0.767s] writing entry points to ../../build/naima_bringup/naima_bringup.egg-info/entry_points.txt
+[0.767s] writing requirements to ../../build/naima_bringup/naima_bringup.egg-info/requires.txt
+[0.768s] writing top-level names to ../../build/naima_bringup/naima_bringup.egg-info/top_level.txt
+[0.768s] writing manifest file '../../build/naima_bringup/naima_bringup.egg-info/SOURCES.txt'
+[0.769s] reading manifest file '../../build/naima_bringup/naima_bringup.egg-info/SOURCES.txt'
+[0.769s] writing manifest file '../../build/naima_bringup/naima_bringup.egg-info/SOURCES.txt'
+[0.770s] running build
+[0.770s] running build_py
+[0.770s] creating /home/men3m/Naima/build/naima_bringup/build
+[0.770s] creating /home/men3m/Naima/build/naima_bringup/build/lib
+[0.770s] creating /home/men3m/Naima/build/naima_bringup/build/lib/naima_bringup
+[0.770s] copying naima_bringup/model.py -> /home/men3m/Naima/build/naima_bringup/build/lib/naima_bringup
+[0.770s] copying naima_bringup/__init__.py -> /home/men3m/Naima/build/naima_bringup/build/lib/naima_bringup
+[0.770s] running install
+[0.770s] running install_lib
+[0.771s] creating /home/men3m/Naima/install/naima_bringup/lib/python3.10/site-packages/naima_bringup
+[0.771s] copying /home/men3m/Naima/build/naima_bringup/build/lib/naima_bringup/model.py -> /home/men3m/Naima/install/naima_bringup/lib/python3.10/site-packages/naima_bringup
+[0.771s] copying /home/men3m/Naima/build/naima_bringup/build/lib/naima_bringup/__init__.py -> /home/men3m/Naima/install/naima_bringup/lib/python3.10/site-packages/naima_bringup
+[0.771s] byte-compiling /home/men3m/Naima/install/naima_bringup/lib/python3.10/site-packages/naima_bringup/model.py to model.cpython-310.pyc
+[0.772s] byte-compiling /home/men3m/Naima/install/naima_bringup/lib/python3.10/site-packages/naima_bringup/__init__.py to __init__.cpython-310.pyc
+[0.772s] running install_data
+[0.772s] creating /home/men3m/Naima/install/naima_bringup/share/ament_index
+[0.772s] creating /home/men3m/Naima/install/naima_bringup/share/ament_index/resource_index
+[0.772s] creating /home/men3m/Naima/install/naima_bringup/share/ament_index/resource_index/packages
+[0.773s] copying resource/naima_bringup -> /home/men3m/Naima/install/naima_bringup/share/ament_index/resource_index/packages
+[0.773s] copying package.xml -> /home/men3m/Naima/install/naima_bringup/share/naima_bringup
+[0.773s] creating /home/men3m/Naima/install/naima_bringup/share/naima_bringup/launch
+[0.773s] copying launch/bringup.launch.py -> /home/men3m/Naima/install/naima_bringup/share/naima_bringup/launch
+[0.773s] copying launch/pointcloud_to_laserscan.launch.py -> /home/men3m/Naima/install/naima_bringup/share/naima_bringup/launch
+[0.773s] running install_egg_info
+[0.774s] Copying ../../build/naima_bringup/naima_bringup.egg-info to /home/men3m/Naima/install/naima_bringup/lib/python3.10/site-packages/naima_bringup-0.0.0-py3.10.egg-info
+[0.775s] running install_scripts
+[0.791s] Installing bringup script to /home/men3m/Naima/install/naima_bringup/lib/naima_bringup
+[0.791s] Installing model script to /home/men3m/Naima/install/naima_bringup/lib/naima_bringup
+[0.791s] writing list of installed files to '/home/men3m/Naima/build/naima_bringup/install.log'
+[0.811s] Invoked command in '/home/men3m/Naima/src/naima_bringup' returned '0': PYTHONPATH=/home/men3m/Naima/build/naima_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/men3m/Naima/install/naima_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/naima_bringup build --build-base /home/men3m/Naima/build/naima_bringup/build install --record /home/men3m/Naima/build/naima_bringup/install.log --single-version-externally-managed install_data

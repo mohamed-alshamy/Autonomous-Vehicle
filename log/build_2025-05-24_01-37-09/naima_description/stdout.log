@@ -1,0 +1,70 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/men3m/Naima/build/naima_description
+-- Install configuration: ""
+-- Installing: /home/men3m/Naima/install/naima_description/share/naima_description/launch
+-- Installing: /home/men3m/Naima/install/naima_description/share/naima_description/launch/display.launch.py
+-- Installing: /home/men3m/Naima/install/naima_description/share/naima_description/launch/gazebo.launch.py
+-- Installing: /home/men3m/Naima/install/naima_description/share/naima_description/urdf
+-- Installing: /home/men3m/Naima/install/naima_description/share/naima_description/urdf/naima.urdf.xacro
+-- Installing: /home/men3m/Naima/install/naima_description/share/naima_description/urdf/naima.csv
+-- Installing: /home/men3m/Naima/install/naima_description/share/naima_description/meshes
+-- Installing: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/zed_camera_link.STL
+-- Installing: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/right_middle_ultra_link.STL
+-- Installing: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/front_left_wheel_link.STL
+-- Installing: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/rear_left_wheel_link.STL
+-- Installing: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/left_steering_hinge.STL
+-- Installing: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/left_middle_ultra_link.STL
+-- Installing: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/front_left_ultra_link.STL
+-- Installing: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/left_rear_ultra_link.STL
+-- Installing: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/right_rear_ultra_link.STL
+-- Installing: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/front_right_ultra_link.STL
+-- Installing: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/left_corner_ultra_link.STL
+-- Installing: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/imu_link.STL
+-- Installing: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/front_middle_ultra_link.STL
+-- Installing: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/front_camera_link.STL
+-- Installing: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/base_link.STL
+-- Installing: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/steering_link.STL
+-- Installing: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/3D_lidar.STL
+-- Installing: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/rear_ultra_link.STL
+-- Installing: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/rear_wheel.STL
+-- Installing: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/rear_right_wheel_link.STL
+-- Installing: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/front_right_wheel_link.STL
+-- Installing: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/front_steer.STL
+-- Installing: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/gps_link.STL
+-- Installing: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/right_corner_ultra_link.STL
+-- Installing: /home/men3m/Naima/install/naima_description/share/naima_description/meshes/right_steering_hinge.STL
+-- Installing: /home/men3m/Naima/install/naima_description/share/ament_index/resource_index/package_run_dependencies/naima_description
+-- Installing: /home/men3m/Naima/install/naima_description/share/ament_index/resource_index/parent_prefix_path/naima_description
+-- Installing: /home/men3m/Naima/install/naima_description/share/naima_description/environment/ament_prefix_path.sh
+-- Installing: /home/men3m/Naima/install/naima_description/share/naima_description/environment/ament_prefix_path.dsv
+-- Installing: /home/men3m/Naima/install/naima_description/share/naima_description/environment/path.sh
+-- Installing: /home/men3m/Naima/install/naima_description/share/naima_description/environment/path.dsv
+-- Installing: /home/men3m/Naima/install/naima_description/share/naima_description/local_setup.bash
+-- Installing: /home/men3m/Naima/install/naima_description/share/naima_description/local_setup.sh
+-- Installing: /home/men3m/Naima/install/naima_description/share/naima_description/local_setup.zsh
+-- Installing: /home/men3m/Naima/install/naima_description/share/naima_description/local_setup.dsv
+-- Installing: /home/men3m/Naima/install/naima_description/share/naima_description/package.dsv
+-- Installing: /home/men3m/Naima/install/naima_description/share/ament_index/resource_index/packages/naima_description
+-- Installing: /home/men3m/Naima/install/naima_description/share/naima_description/cmake/naima_descriptionConfig.cmake
+-- Installing: /home/men3m/Naima/install/naima_description/share/naima_description/cmake/naima_descriptionConfig-version.cmake
+-- Installing: /home/men3m/Naima/install/naima_description/share/naima_description/package.xml

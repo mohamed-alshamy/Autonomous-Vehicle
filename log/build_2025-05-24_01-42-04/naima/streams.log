@@ -1,0 +1,20 @@
+[0.617s] Invoking command in '/home/men3m/Naima/src/naima': PYTHONPATH=/home/men3m/Naima/build/naima/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/men3m/Naima/install/naima/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/naima build --build-base /home/men3m/Naima/build/naima/build install --record /home/men3m/Naima/build/naima/install.log --single-version-externally-managed install_data
+[0.825s] running egg_info
+[0.825s] writing ../../build/naima/naima.egg-info/PKG-INFO
+[0.825s] writing dependency_links to ../../build/naima/naima.egg-info/dependency_links.txt
+[0.826s] writing entry points to ../../build/naima/naima.egg-info/entry_points.txt
+[0.826s] writing requirements to ../../build/naima/naima.egg-info/requires.txt
+[0.826s] writing top-level names to ../../build/naima/naima.egg-info/top_level.txt
+[0.827s] reading manifest file '../../build/naima/naima.egg-info/SOURCES.txt'
+[0.828s] writing manifest file '../../build/naima/naima.egg-info/SOURCES.txt'
+[0.828s] running build
+[0.829s] running build_py
+[0.829s] running install
+[0.829s] running install_lib
+[0.830s] running install_data
+[0.831s] running install_egg_info
+[0.832s] removing '/home/men3m/Naima/install/naima/lib/python3.10/site-packages/naima-0.0.0-py3.10.egg-info' (and everything under it)
+[0.833s] Copying ../../build/naima/naima.egg-info to /home/men3m/Naima/install/naima/lib/python3.10/site-packages/naima-0.0.0-py3.10.egg-info
+[0.833s] running install_scripts
+[0.850s] writing list of installed files to '/home/men3m/Naima/build/naima/install.log'
+[0.874s] Invoked command in '/home/men3m/Naima/src/naima' returned '0': PYTHONPATH=/home/men3m/Naima/build/naima/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/men3m/Naima/install/naima/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/naima build --build-base /home/men3m/Naima/build/naima/build install --record /home/men3m/Naima/build/naima/install.log --single-version-externally-managed install_data

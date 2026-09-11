@@ -1,0 +1,13 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/opt/ros/galactic/lib/python3.8/site-packages",
+        "/home/men3m/catkin_ws/devel/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/m4/Naima/install/naima/lib/python3.8/site-packages",
+        "/home/m4/Naima/install/BlackPearl/lib/python3.8/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "ros.distro": "humble"
+}
